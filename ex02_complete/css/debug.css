@@ -1,0 +1,207 @@
+
+
+body::before {
+    content: "1920px";
+    color: red;
+    font-size: 20px;
+
+    position: fixed;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid thistle;
+    box-shadow: 1px 1px 18px 8px #333;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1600px) {
+    body::before {
+        content: "1600px";
+        color: red;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body::before {
+        content: "1440px";
+        color: black;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 1280px) {
+
+    body::before {
+        content: "1280px";
+        color: red;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 1136px) {
+    body::before {
+        content: "1136px";
+        color: blue;
+
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 1024px) {
+    body::before {
+        content: "1024px";
+        color: green;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 960px) {
+    body::before {
+        content: "960px";
+        color: purple;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 950px) {
+    body::before {
+        content: "950px";
+        color: black;
+    }
+}
+@media screen and (max-width: 860px) {
+    body::before {
+        content: "860px";
+        color: red;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    body::before {
+        content: "768px";
+        color: green;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 720px) {
+
+    body::before {
+        content: "720px";
+        color: green;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    body::before {
+        content: "600px";
+        color: red;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    body::before {
+        content: "480px";
+        color: blue;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body::before {
+        content: "380px";
+        color: orange;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    body::before {
+        content: "320px";
+        color: gray;
+
+        position: fixed;
+	    background: white;
+	    border-radius: 5px;
+	    border: 1px solid thistle;
+	    box-shadow: 1px 1px 18px 8px #333;
+	    z-index: 10;
+
+    }
+}

@@ -1,0 +1,304 @@
+.anthony {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.barbara {
+  border: 1px solid deeppink;
+  margin: 5px;
+  border-radius: 3px; }
+
+.betty {
+  border: 1px solid darkorange;
+  margin: 5px;
+  border-radius: 3px; }
+
+.brian {
+  border: 1px solid darkkhaki;
+  margin: 5px;
+  border-radius: 3px; }
+
+.carol {
+  border: 1px solid magenta;
+  margin: 5px;
+  border-radius: 3px; }
+
+.charles {
+  border: 1px solid blueviolet;
+  margin: 5px;
+  border-radius: 3px; }
+
+.christopher {
+  border: 1px solid limegreen;
+  margin: 5px;
+  border-radius: 3px; }
+
+.daniel {
+  border: 1px solid lightseagreen;
+  margin: 5px;
+  border-radius: 3px; }
+
+.david {
+  border: 1px solid cyan;
+  margin: 5px;
+  border-radius: 3px; }
+
+.deborah {
+  border: 1px solid steelblue;
+  margin: 5px;
+  border-radius: 3px; }
+
+.donald {
+  border: 1px solid deepskyblue;
+  margin: 5px;
+  border-radius: 3px; }
+
+.donna {
+  border: 1px solid mediumblue;
+  margin: 5px;
+  border-radius: 3px; }
+
+.dorothy {
+  border: 1px solid burlywood;
+  margin: 5px;
+  border-radius: 3px; }
+
+.edward {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.elizabeth {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.george {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.helen {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.james {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.jason {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.jeff {
+  border: 1px solid silver;
+  margin: 5px;
+  border-radius: 3px; }
+
+.jennifer {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.john {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.joseph {
+  border: 1px solid rosybrown;
+  margin: 5px;
+  border-radius: 3px; }
+
+.karen {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.kenneth {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.kevin {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.kimberly {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.laura {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.linda {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.lisa {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.maria {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.mark {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.mary {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.michael {
+  border: 1px solid brown;
+  margin: 5px;
+  border-radius: 3px; }
+
+.michelle {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.nancy {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.patricia {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.paul {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.richard {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.robert {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.ronald {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.ruth {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.sandra {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.sarah {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.sharon {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.steven {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.susan {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.thomas {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+.william {
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 3px; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; }
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.carol {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.brian {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.daniel {
+  display: flex;
+  flex-direction: row; }
+
+/*# sourceMappingURL=styles.css.map */

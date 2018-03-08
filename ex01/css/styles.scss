@@ -1,0 +1,146 @@
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+    @mixin debug( $bordercolor ) {
+        border: 1px solid $bordercolor;
+        margin: 5px;
+        border-radius: 3px;
+    }
+
+//=========================================
+//      DEBUG
+//=========================================
+
+    .anthony { @include debug( red );}
+    .barbara { @include debug( deeppink );}
+    .betty { @include debug( darkorange );}
+    .brian { @include debug( darkkhaki );}
+    .carol { @include debug( magenta );}
+    .charles { @include debug( blueviolet );}
+    .christopher { @include debug( limegreen );}
+    .daniel { @include debug( lightseagreen );}
+    .david { @include debug( cyan );}
+    .deborah { @include debug( steelblue );}
+    .donald { @include debug( deepskyblue );}
+    .donna { @include debug( mediumblue );}
+    .dorothy { @include debug( burlywood );}
+    .edward { @include debug( red );}
+    .elizabeth { @include debug( red );}
+    .george { @include debug( red );}
+    .helen { @include debug( red );}
+    .james { @include debug( red );}
+    .jason  { @include debug( red );}
+    .jeff { @include debug( silver );}
+    .jennifer { @include debug( red );}
+    .john { @include debug( red );}
+    .joseph { @include debug( rosybrown );}
+    .karen    { @include debug( red );}
+    .kenneth { @include debug( red );}
+    .kevin { @include debug( red );}
+    .kimberly { @include debug( red );}
+    .laura { @include debug( red );}
+    .linda { @include debug( red );}
+    .lisa { @include debug( red );}
+    .maria { @include debug( red );}
+    .mark { @include debug( red );}
+    .mary { @include debug( red );}
+    .michael { @include debug( brown );}
+    .michelle { @include debug( red );}
+    .nancy { @include debug( red );}
+    .patricia { @include debug( red );}
+    .paul { @include debug( red );}
+    .richard { @include debug( red );}
+    .robert { @include debug( red );}
+    .ronald { @include debug( red );}
+    .ruth { @include debug( red );}
+    .sandra { @include debug( red );}
+    .sarah { @include debug( red );}
+    .sharon { @include debug( red );}
+    .steven { @include debug( red );}
+    .susan { @include debug( red );}
+    .thomas { @include debug( red );}
+    .william { @include debug( red );}
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .carol {
+        font-family: sans-serif;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+.brian {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.daniel {
+    display: flex;
+    flex-direction: row;
+}
