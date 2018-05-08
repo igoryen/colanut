@@ -1,0 +1,130 @@
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+    @import "colors";
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    *, *:before, *:after { box-sizing: border-box; }
+
+    html { font-size: 62.5%; } 
+    body { font-size: 1.4rem; } /* =14px */
+    h1   { font-size: 2.4rem; } /* =24px */
+
+    body {
+        // display: flex;
+        // justify-content: flex-end;
+        // font-size: 16px;
+    }
+
+
+
+//=========================================
+//      SECTION A
+//=========================================
+    
+    #albert {
+        
+        * {
+            font-size: 2rem;
+        }
+
+        // align-items: center;
+        // justify-content: center;
+        // overflow: auto;
+        // resize: vertical;
+        align-items: center;
+        background: $color01;
+        display: flex;
+        flex-direction: column;
+        
+        height: 95vh;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
+        width: 60%;
+        // resize: both;
+        // overflow: auto;
+
+
+        .jonathan {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .joan {
+            // align-items: center;
+            background-color: #ccc;
+            // display: flex;
+            // flex-direction: column;
+            // width: 90%;
+            // resize: vertical;
+            // overflow: auto;
+
+            // background: black;
+            color: white;
+            max-width: 30rem;
+            padding: 20px;
+            // resize: both;
+            // overflow: auto;
+
+        }
+        .katherine {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                height: 4rem;
+                margin: 0.5rem 0;
+                padding: 0 1rem;
+            }
+        }
+        .justin {
+            display: flex;
+            flex-direction: column;
+
+            input[type="button"] {
+                background-color: #666;
+                color: #fff;
+                
+                height: 4rem;
+                margin: 0.5rem 0;
+                padding: 0 1rem;
+            }
+        }
+    }
+    
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 400px) {
+
+        
+    }

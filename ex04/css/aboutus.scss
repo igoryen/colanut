@@ -1,0 +1,202 @@
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+    @import url('https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext');
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    *, *:before, *:after { box-sizing: border-box; }
+
+    body {
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Sintony", sans-serif;
+    }
+
+
+    .carolyn {
+        // border: 1px solid red;
+        padding: 1rem;
+        // box-shadow: 5px 1px 1px #ccc;
+        > h2 {
+            // text-align: center;
+            color: #999;
+        }
+    }
+
+
+    .christine {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .peter {
+        flex: 1 0 auto;
+        min-width: 20rem;
+        padding: 2rem;
+        width: 33%;
+    }
+
+    .marie {
+
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+        min-height: 6rem;
+
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        span {
+            margin-right: 1rem;
+        }
+
+        .nas {
+            background: url(../../img/logos/nas2.png) no-repeat;
+            background-position: left center;
+            background-size: 100% auto;
+            padding: 0 3rem;
+        }
+
+        .nrs {
+            background: url(../../img/logos/nrs2.png) no-repeat;
+            background-position: left center;
+            background-size: 100% auto;
+            padding: 0 3rem;
+        }
+
+        .ihusa {
+            background: url(../../img/logos/ihusa.png) no-repeat;
+            background-position: left center;
+            background-size: 100% auto;
+            padding: 0 5rem;
+        }
+    }
+
+    // .janet {
+        .frances {
+
+        }
+
+        .catherine {
+            font-size: 7rem;
+            color: #fff;
+            font-weight: 700;
+            margin: -26px -5px;
+            // order: 1;
+        }
+
+        .henry {
+            align-items: center;
+            background-color: #db3d45;
+            display: flex;
+            flex-wrap: wrap;
+            // margin: 1rem 0px;
+            padding: 0;
+            position: relative;
+        }
+        .harold {
+            // position: absolute;
+            // bottom: 1rem;
+            // left: 0;
+
+            color: #fff;
+            font-size: 1.3rem;
+            margin-left: 1rem;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .douglas {
+            padding: 0.5rem 0;
+            background-image: linear-gradient(to left, #fff, #fff 30%, #db3d45);
+        }
+    // }
+
+    .joyce {
+        h1 {
+            color: #999;
+        }
+    }
+
+    
+
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 1280px) {
+        .marie {
+            flex-direction: column;
+
+            span {
+                padding: 2rem!important;
+                background-size: contain !important;
+                margin-right: 0;
+            }
+        }
+        
+    }
+
+
+    @media screen and (max-width: 600px) {
+        .peter, .carolyn {
+            padding-left: 0;
+            padding-right: 0;
+
+        }
+
+        .janet {
+            h1 {
+                text-align: center;
+                // color: #999;
+            }
+        }
+
+        .carolyn {
+            > h2 {
+                text-align: center;
+                // color: #999;
+            }
+        }
+
+        .marie {
+            span {
+
+            }
+        }
+        
+    }

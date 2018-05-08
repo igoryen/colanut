@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$color01: 
+#f2f2f2;
+
+/*
+palettes:
+1. lime lemonades
+2. Home scheme #2 - http://www.color-hex.com/color-palette/38233
+3
+4
+5. http://www.color-hex.com/color-palette/34745
+*/
+
+
+//==== TOP BAR ================
+
+$color-top-bar:
+// #054877;
+// #333;
+ // #0fb784; // p1
+// rgba(47,79,79, 1);// p2
+// rgba(44,62,80,1);// p3
+// rgba(26,26,26, 1);// p4
+rgba(86,86,86, 1);// p5
+
+$top-bar-title: 
+// #EEE; // p0
+// rgba(222,184,135, 1); // p2
+// rgba(243,156,18, 0.7); // p3
+// rgba(234,232,186,1); // p4
+rgba(255,121,31, 0.9);//p4
+
+
+
+//==== COLOR BKG =========
+// BKG color: 
+$bkg-color-outside: 
+// #d9d9d9;
+// #cbffcd; // p1
+// rgba(248,248,255, 1); // p2
+rgba(170,222,238, 0.5);// p3
+
+
+$bkg-color-inside: 
+// #f2f2f2; // p0
+// rgba(248,248,255, 0.5); // p2
+rgba(170,222,238, 0.2);// p3
+
+
+
+
+
+
+
+
+//========================
+
+$color-legend: 
+#000;
+
+
+
+
+$color-dynamic-list-selected-item:
+#E4E4E4;
+
+$color-d-button:
+// #1f70a6;
+transparent;
+
+
+
+$color-no-reqs: 
+transparent;
+
+$color-req-num-ball: 
+// #999;
+ // #0fb784; // p1
+// rgba(0,128,128, 1);// p2
+// rgba(243,156,18,1); // p3
+// rgba(113,188,225,1); //p4
+rgba(255,121,31,1);//p5
+
+//==== ICON ========
+
+
+$color-icon: 
+// #737373;
+// #9bffa4; // 1p
+// rgba(188,143,143, 1);// p2
+// rgba(170,222,238,1); // p3
+// rgba(113,188,225,1);// p4
+rgba(173,226,238,1);// p5
+
+$color-icon-circle: 
+#bfbfbf;
+// rgba(188,143,143, 1); //p2
+// rgba(170,222,238, 1);// p3
+rgba(180,167,126,1);// p4
+
+
+$color-icon-text: 
+#8c8c8c;
+// rgba(15,183,132, 1); // p1
+// rgba(47,79,79, 0.7);// p2
+// rgba(187,187,187, 1); // p3
+// rgba(180,167,126,1); //p4
+// rgba(86,86,86,1);// p5
+
+
+//====== SELECTED ==========
+$color-icon-selected-circle: 
+#737373;
+// rgba(0,128,128, 1); // p2
+// rgba(44,62,80,1);// p3
+// rgba(86,86,86, 1);//p5
+
+
+
+$color-icon-selected:
+rgba(0,128,128, 1); //p2
+// rgba(44,62,80,0.8);// p3
+// rgba(86,101,115,0.9);//p4
+// rgba(81,146,165, 1);// p5
+
+
+$color-icon-selected-text:
+rgba(47,79,79, 1);// p2
+// rgba(44,62,80,1);// p3
+// rgba(113,188,225,1);// p4
+
+
+
+$color-note-time: 
+#bfbfbf;
