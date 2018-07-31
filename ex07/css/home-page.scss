@@ -1,0 +1,86 @@
+
+
+#n_robin {
+	display: flex;
+    justify-content: center;
+    padding-top: 3%;
+
+    div {
+    	background-color: #fff;
+	    padding: 1rem;
+	    // box-shadow: 1px 1px 1px #ccc;
+	    box-shadow: inset 1px 1px 6px 1px #ccc;
+	    margin: 1rem;
+    	
+    }
+}
+
+// box with three icons: Insight, Oversight, Intelligence
+#n_leslie {
+	// border: 1px dashed green;
+	display: flex;
+    flex-direction: row;
+    // flex: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+// box with icon, title, description
+.n_kathryn {
+	// border: 1px dashed pink;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    margin: 1rem;
+    // flex: auto;
+}
+
+// icon
+.n_eugene {
+	img {
+		width: 10rem;
+	}
+}
+
+// title
+.n_bobby {
+	font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    color: #737373;
+}
+
+//description
+.n_howard {
+	text-align: center;
+}
+
+// diagram
+#n_carlos {
+
+}
+
+
+
+@media ( min-width: 240px ) {
+
+	.n_marilyn {
+		// border: 1px dashed red;
+
+	}
+	
+	
+	#n_leslie {
+		// border: 1px dashed green;
+	}
+} // min 240
+
+@media ( min-width: 1280px) {
+	#n_robin {
+		div {
+			max-width: 128rem;
+		}
+	}
+}
+

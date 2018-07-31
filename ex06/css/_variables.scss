@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:600i,700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900');
+
+$color01: 
+#f2f2f2;
+
+
+
+
+/*
+palettes:
+1. lime lemonades
+2. Home scheme #2 - http://www.color-hex.com/color-palette/38233
+3
+4
+5. http://www.color-hex.com/color-palette/34745
+*/
+
+
+// //=========== PALETTE 1 ================================
+// 	//==== TOP BAR ================
+
+// 	$color-top-bar: #0fb784; // p1
+// 	// #054877;
+// 	// #333;
+	 
+// 	$top-bar-title: #EEE; // p1
+// 	//==== COLOR BKG =========
+// 	// BKG color: 
+// 	$bkg-color-outside: #cbffcd; // p1
+// 	// #d9d9d9;
+// 	$bkg-color-inside: 	#f2f2f2; // p1
+// 	//========================
+
+// 	$color-legend: #000;
+// 	$color-dynamic-list-selected-item: #E4E4E4;
+
+// 	$color-d-button: transparent;
+// 	// #1f70a6;
+// 	$color-no-reqs:  transparent;
+// 	$color-req-num-ball: #0fb784;
+
+
+// 	//==== ICON ========
+
+
+// 	$color-icon: #9bffa4;
+// 	$color-icon-circle: #bfbfbf;
+// 	$color-icon-text: rgba(15,183,132, 1);
+// 	// #8c8c8c;
+
+
+
+// 	//====== SELECTED ==========
+// 	$color-icon-selected-circle: #737373;
+// 	$color-icon-selected: #ccc;
+// 	$color-icon-selected-text: red;
+// 	$color-note-time: #bfbfbf;
+
+
+// //=======PALETTE 1 END ==================================
+
+
+// //=========== PALETTE 2 ================================
+// 	//==== TOP BAR ================
+
+// 	$color-top-bar: rgba(47,79,79, 1);// p2
+// 	$top-bar-title: rgba(222,184,135, 1); // p2
+// 	//==== COLOR BKG =========
+// 	// BKG color: 
+// 	$bkg-color-outside: rgba(248,248,255, 1); // p2
+// 	$bkg-color-inside: rgba(248,248,255, 0.5); // p2
+// 	//========================
+
+// 	$color-legend: #000;
+// 	$color-dynamic-list-selected-item: #E4E4E4;
+// 	$color-d-button: transparent;
+// 	$color-no-reqs: transparent;
+// 	$color-req-num-ball:  rgba(0,128,128, 1);// p2
+
+// 	//==== ICON ========
+// 	$color-icon: rgba(188,143,143, 1);// p2
+// 	$color-icon-circle: rgba(188,143,143, 1); //p2
+// 	$color-icon-text: rgba(47,79,79, 0.7);// p2
+// 	//====== SELECTED ==========
+// 	$color-icon-selected-circle:  rgba(0,128,128, 1); // p2
+// 	$color-icon-selected: rgba(0,128,128, 1); //p2
+// 	$color-icon-selected-text: rgba(47,79,79, 1);// p2
+// 	$color-note-time: #bfbfbf;
+
+
+// //=======PALETTE 2 END ==================================
+
+
+
+
+// //=========== PALETTE 3 ================================
+// 	//==== TOP BAR ================
+
+// 	$color-top-bar: rgba(44,62,80,1);// p3
+// 	$top-bar-title: rgba(243,156,18, 0.7); // p3
+// 	//==== COLOR BKG =========
+// 	// BKG color: 
+// 	$bkg-color-outside: rgba(170,222,238, 0.5);// p3
+// 	$bkg-color-inside: rgba(170,222,238, 0.2);// p3
+// 	//========================
+
+// 	$color-legend: #000;
+// 	$color-dynamic-list-selected-item: #E4E4E4;
+// 	$color-d-button: transparent;
+// 	$color-no-reqs:  transparent;
+// 	$color-req-num-ball: rgba(243,156,18,1); // p3
+
+// 	//==== ICON ========
+
+
+// 	$color-icon: rgba(170,222,238,1); // p3
+// 	$color-icon-circle: rgba(170,222,238, 1);// p3
+// 	$color-icon-text: rgba(187,187,187, 1); // p3
+
+// 	//====== SELECTED ==========
+// 	$color-icon-selected-circle: rgba(44,62,80,1);// p3
+// 	$color-icon-selected: rgba(44,62,80,0.8);// p3
+// 	$color-icon-selected-text: rgba(44,62,80,1);// p3
+// 	$color-note-time: #bfbfbf;
+
+
+// //=======PALETTE 3 END ==================================
+
+
+
+
+//=========== PALETTE 4 ================================
+ 	//==== TOP BAR ================
+
+	// $color-top-bar: rgba(26,26,26, 1);// p4
+	// $top-bar-title: rgba(234,232,186,1); // p4
+	// //==== COLOR BKG =========
+	// // BKG color: 
+	// $bkg-color-outside: rgba(170,222,238, 0.5);// p3
+	// $bkg-color-inside: rgba(170,222,238, 0.2);// p3
+
+	// //========================
+	// $color-legend: #000;
+	// $color-dynamic-list-selected-item: #E4E4E4;
+	// $color-d-button: transparent;
+	// $color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(113,188,225,1); //p4
+	// //==== ICON ========
+	// $color-icon: rgba(113,188,225,1);// p4
+	// $color-icon-circle: rgba(180,167,126,1);// p4
+	// $color-icon-text: rgba(180,167,126,1); //p4
+
+	// //====== SELECTED ==========
+	// $color-icon-selected-circle: rgba(44,62,80,1);// p3
+	// $color-icon-selected: rgba(86,101,115,0.9);//p4
+	// $color-icon-selected-text: rgba(113,188,225,1);// p4
+	// $color-note-time: #bfbfbf;
+
+	// SEARCH BAR
+	// $color-search-bar-text: rgba(0,0,255, 0.5);
+
+
+//=======PALETTE 4 END ==================================
+
+
+
+
+
+// //=========== PALETTE 5 ================================
+// 	//==== TOP BAR ================
+
+	// $color-top-bar:	rgba(86,86,86, 1);// p5
+	// $top-bar-title:	rgba(255,121,31, 0.9);//p4
+	// //==== COLOR BKG =========
+	// // BKG color: 
+	// $bkg-color-outside: rgba(170,222,238, 0.5);// p3
+	// $bkg-color-inside: rgba(170,222,238, 0.2);// p3
+	// //========================
+	// $color-legend: #000;
+	// $color-dynamic-list-selected-item: #E4E4E4;
+	// $color-d-button: transparent;
+	// $color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(255,121,31,1);//p5
+
+	// //==== ICON ========
+
+
+	// $color-icon: rgba(173,226,238,1);// p5
+	// $color-icon-circle: rgba(180,167,126,1);// p4
+	// $color-icon-text: rgba(86,86,86,1);// p5
+
+	// //====== SELECTED ==========
+	// $color-icon-selected-circle: rgba(86,86,86, 1);//p5
+	// $color-icon-selected: rgba(81,146,165, 1);// p5
+	// $color-icon-selected-text: rgba(113,188,225,1);// p4
+	// $color-note-time:  #bfbfbf;
+
+	// // SEARCH BAR
+	// $color-search-bar-text: rgba(0,0,255, 0.5);
+
+
+// //=======PALETTE 5 END ==================================
+
+
+// //=========== PALETTE 6 ================================
+// 	//==== TOP BAR ================
+
+// 	$color-top-bar:	rgba(25,25,25, 1);// p5
+// 	$top-bar-title:	rgba(238,238,238, 0.9);//p4
+// 	//==== COLOR BKG =========
+// 	// BKG color: 
+// 	$bkg-color-outside: rgba(238,238,238, 0.5);// p3
+// 	$bkg-color-inside: rgba(238,238,238, 0.2);// p3
+// 	//========================
+// 	$color-legend: #000;
+// 	$color-dynamic-list-selected-item: #E4E4E4;
+// 	$color-d-button: transparent;
+// 	$color-no-reqs: transparent;
+// 	$color-req-num-ball: rgba(0,0,255,0.7);//p5
+
+	
+// 	// SEARCH BAR
+// 	$color-search-bar-text: rgba(0,0,255, 0.5);
+
+// 	//==== ICON ========
+
+
+// 	$color-icon: rgba(209,81,26, 1);// p5
+// 	$color-icon-circle: rgba(209,81,26,0.5);// p4
+// 	$color-icon-text: rgba(34,119,63,1);// p5
+
+// 	//====== SELECTED ==========
+// 	$color-icon-selected-circle: rgba(86,86,86, 1);//p5
+// 	$color-icon-selected: rgba(81,146,165, 1);// p5
+// 	$color-icon-selected-text: rgba(113,188,225,1);// p4
+// 	$color-note-time:  #bfbfbf;
+
+
+// //=======PALETTE 6 END ==================================
+
+
+//=========== PALETTE 7 ================================
+	//==== TOP BAR ================
+
+	// $color-top-bar:	rgba(42,106,131, 1);// p5
+	// $top-bar-title:	rgba(244,244,244, 0.9);//p4
+	// //==== COLOR BKG =========
+	// // BKG color: 
+	// $bkg-color-outside: rgba(151,211,212, 0.2);// p3
+	// $bkg-color-inside: rgba(151,211,212, .05);// p3
+	// //========================
+	// $color-legend: #000;
+	// $color-dynamic-list-selected-item: #E4E4E4;
+	// $color-d-button: transparent;
+	// $color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(113,144,94, 0.7);//p5
+
+	
+	// // SEARCH BAR
+	// $color-search-bar-text: rgba(0,0,255, 0.5);
+
+	// //==== ICON ========
+
+
+	// $color-icon: rgba(42,106,131, 1);// p5
+	// $color-icon-circle: rgba(151,211,212,0.5);// p4
+	// $color-icon-text: rgba(133,133,133,1);// p5
+
+	// //====== SELECTED ==========
+	// $color-icon-selected-circle: rgba(86,86,86, 1);//p5
+	// $color-icon-selected: rgba(81,146,165, 1);// p5
+	// $color-icon-selected-text: rgba(113,188,225,1);// p4
+	// $color-note-time:  #bfbfbf;
+
+
+//=======PALETTE 7 END ==================================
+
+
+//=========== PALETTE 8 ================================
+	//==== TOP BAR ================
+
+	// $color-top-bar:	rgba(116,116,120, 1);// p5
+	// $top-bar-title:	rgba(255,215,0, 0.9);//p4
+	// //==== COLOR BKG =========
+	// // BKG color: 
+	// $bkg-color-outside: rgba(177,223,215, 0.2);// p3
+	// $bkg-color-inside: rgba(177,223,215, .05);// p3
+	// //========================
+	// $color-legend: #000;
+	// $color-dynamic-list-selected-item: #E4E4E4;
+	// $color-d-button: transparent;
+	// $color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(130,120,166, 1);//p5
+
+	
+	// // SEARCH BAR
+	// $color-search-bar-text: rgba(0,0,255, 0.5);
+
+	// //==== ICON ========
+
+
+	// $color-icon: rgba(159,195,227, 1);// p5
+	// $color-icon-circle: rgba(255,215,0,1);// p4
+	// $color-icon-text: rgba(130,120,166,1);// p5
+
+	// //====== SELECTED ==========
+	// $color-icon-selected-circle: rgba(86,86,86, 1);//p5
+	// $color-icon-selected: rgba(81,146,165, 1);// p5
+	// $color-icon-selected-text: rgba(113,188,225,1);// p4
+	// $color-note-time:  #bfbfbf;
+
+
+//=======PALETTE 8 END ==================================
+
+//=========== PALETTE 9 ================================
+ // 	//==== TOP BAR ================
+	// $color-top-bar: rgba(26,26,26, 1);// p4
+	// $top-bar-title: rgba(234,232,186,1); // p4
+	// //==== COLOR BKG =========
+	// // BKG color: 
+	// $bkg-color-outside: rgba(170,222,238, 0.2);// p3
+	// $bkg-color-inside: rgba(170,222,238, 0.1);// p3
+
+	// //========================
+	// $color-legend: #000;
+	// $color-dynamic-list-selected-item: #E4E4E4;
+	// $color-d-button: transparent;
+	// $color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(243,156,18,1); // p3
+	// // $color-req-num-ball: rgba(113,188,225,1); //p4
+	// // $color-req-num-ball: rgba(0,0,255,0.7);//p5
+	// //==== ICON ========
+	// $color-icon: rgba(113,188,225,1);// p4
+	// $color-icon-circle: rgba(180,167,126,1);// p4
+	// $color-icon-text: rgba(180,167,126,1); //p4
+
+	// //====== SELECTED ==========
+	// $color-icon-selected-circle: rgba(44,62,80,1);// p3
+	// $color-icon-selected: rgba(86,101,115,0.9);//p4
+	// $color-icon-selected-text: rgba(113,188,225,1);// p4
+	// $color-note-time: #bfbfbf;
+
+	// // SEARCH BAR
+	// $color-search-bar-text: rgba(0,0,255, 0.5);
+
+
+	// $color-lists-background: #ccc;
+
+
+//=======PALETTE 9 END ==================================
+
+
+
+//=========== PALETTE 10 ================================
+ 	//==== TOP BAR ================
+	$color-top-bar: rgba(5,72,119,1);// p4
+	$top-bar-title: rgba(255,255,255,1); // p4
+	//==== COLOR BKG =========
+	// BKG color: 
+	$bkg-color-outside: rgba(5,72,119,.05);// p3
+	$bkg-color-inside: rgba(255,255,255,1);// p3
+
+	//========================
+	$color-legend: #000;
+	$color-dynamic-list-selected-item: #E4E4E4;
+	$color-d-button: transparent;
+	$color-no-reqs: transparent;
+	// $color-req-num-ball: rgba(255,0,0,1); // p3
+	$color-req-num-ball: rgba(255, 87, 51, .9);
+	$outrageous-orange: #ff5733;
+
+	//==== ICON ========
+	$color-icon: rgba(113,188,225,1);// p4
+	$color-icon-when-large: rgba(5,72,119,0.7);
+	$color-icon-circle: rgba(113,188,225,.5);// p4
+	$color-icon-text: rgba(180,167,126,1); //p4
+
+	//====== SELECTED ==========
+	$color-icon-selected-circle: rgba(44,62,80,1);// p3
+	$color-icon-selected: rgba(86,101,115,0.9);//p4
+	$color-icon-selected-text: rgba(113,188,225,1);// p4
+	$color-note-time: #bfbfbf;
+
+	// SEARCH BAR
+	$color-search-bar-text: rgba(0,0,255, 0.5);
+
+
+	$color-lists-background: rgba(228,228,228, 1);
+
+	// REQUEST
+	$vivid-tangerine: #ff8080; // vivid-tangerine
+	$color-req-name: rgba(5,72,119,0.7); 
+	// $color-date-time: #bfbfbf;
+	
+	
+	$caper: rgba(203, 230, 163, 1);
+
+	
+	
+	// request status
+	$chateau-green: rgba(64, 168, 96, 1);
+	$amber: rgba(255, 191, 0, 1);
+	$your-pink: #ffcccc;
+	$sundown: #ffb3b3;
+
+	// request comments
+	
+	// BLUES
+	$regent-st-blue: #aacce4; //light
+	$denim: #147EC8;
+	$viking: #71BCE1;
+	$dodger-blue: #2196F3;
+	$venice-blue: #054877;
+	$venice-blue-6: rgba(5,72,119, .6);
+	$venice-blue-07: rgba(5,72,119, 0.07);
+
+	// GRAYS
+	$dove-gray: #737373; // dark
+	$gray: #8c8c8c;
+	$mercury: #e7e7e7; // light
+	$silver: #bfbfbf;
+	$concrete: #F2F2F2;
+	
+
+//=======PALETTE 10 END ==================================
+
+//===== VARIABLES =============================
+
+.n_nicole {
+    border-bottom-left-radius: .5rem;
+}
+
+@mixin req_id {
+    /*--*/
+    // max-width: 7rem;
+    align-items: center;
+    // background-color: $vivid-tangerine;
+    font-family: 'Raleway', sans-serif;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0.1rem .5rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    background: linear-gradient(to bottom left, $vivid-tangerine, $sundown, $vivid-tangerine);
+    text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+    width: auto;
+}
+
+@mixin triangle( $direction, $color ) {
+	width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-#{$direction}: 8px solid #{$color};
+
+}
+
+// @mixin triangle-left() {
+// 	width: 0;
+//     height: 0;
+//     border-top: 10px solid transparent;
+//     border-bottom: 10px solid transparent;
+
+//     border-left: 16px solid red;
+    
+// }

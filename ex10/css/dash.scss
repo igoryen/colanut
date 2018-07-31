@@ -1,0 +1,87 @@
+@import '_variables';
+
+// regardless of the media queries
+
+#n_johnny {
+    margin-top: 4rem;
+    // border: 3px solid red;
+    box-shadow: 1px 1px 1px #333;
+    width: 100%;
+
+    .n_clarence {
+        // border: 3px solid brown;
+        box-shadow: 1px 1px 1px #333;
+    }
+
+    .n_philip {
+        // border: 3px solid lightgrey;
+        box-shadow: 1px 1px 1px #333;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .n_edna {
+        // border: 3px solid navy;
+        box-shadow: 1px 1px 1px #333;
+    }
+
+    // each of the 3 columns
+    .n_tiffany {
+        // border: 3px solid limegreen;
+        box-shadow: 1px 1px 1px #333;
+    }
+    
+    // heading of each of 3 columns
+    .n_tony {
+        // border: 3px solid darkorange;
+        box-shadow: 1px 1px 1px #333;
+        
+    }
+    // one of n content blocks of each of 3 column
+    .n_rosa {
+        // border: 1px solid dodgerblue;
+        box-shadow: 1px 1px 1px #333;
+    }
+    
+    // the heading of a content block of each of 3 columns
+    .n_jimmy {
+        box-shadow: 1px 1px 1px #333;   
+    }
+    // the content of a content block of each of 3 columns
+    
+    .n_earl {
+        box-shadow: 1px 1px 1px #333;   
+    }
+
+
+}
+
+// specific for sizes
+
+@media all and (min-width: 320px) {
+    body {
+        // background-color: red;
+    }
+
+    #n_johnny { 
+
+        .n_tiffany {
+            padding: 1rem;
+            margin: 1rem;
+
+        }
+
+        .n_tony {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .n_jimmy {
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+    }
+}

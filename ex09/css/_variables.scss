@@ -1,0 +1,31 @@
+
+
+// BLUES
+$cello: #203864;
+$cello-rgba: rgba(32, 56, 100, 0.5);
+$venice-blue: #054877;
+$venice-blue-rgba: rgba(5, 72, 119, 0.5);
+$cerulean: #00ACE6;
+
+
+// GRAYS
+$concrete: #f2f2f2;
+$mercury: #e7e7e7;
+$dove-gray: #666666;
+$silver-chalice: #A6A6A6;
+$silver-chalice-rgba: rgba(166, 166, 166, 0.8);
+$dusty-gray: #999999;
+
+// REDS
+$crimson: #ec182e;
+$alizarin-crimson: #E01E26;
+$sunset-orange: #ff5050;
+
+$font_size: 1.8rem;
+$line_height: $font_size * 1.618;
+
+
+@mixin peggy() {
+	background-color: #fff;
+	box-shadow: inset 1px 1px 6px 1px #ccc;
+}

@@ -1,0 +1,14 @@
+background 
+	white
+	
+page sections color
+	transparent
+
+page sections divider
+	stylized line
+
+
+
+Paragraph divider
+	stylized wiggle
+

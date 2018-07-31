@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+    <head>      
+        <meta charset="UTF-8">
+        <title>6 colanut</title>
+        <meta name="description" content="This page is about bla bla bla">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/compiled/all.css?v=1.0">
+        <!-- <link rel="stylesheet" href="css/compiled/styles.css?v=1.0"> -->
+        
+        <script type="text/javascript" src="js/compiled/scripts.js"></script>
+        <!-- <script type="text/javascript" src="js/scripts2.js"></script> -->
+
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="menu" class="ogx_responsive_menu" style="left: -300px;">
+            <div class="menu-head">
+                <img src="./Connexions_files/logo_small.png">
+                <div class="gerald">You're on the go,<br>so we're on hand.</div>
+            </div>
+            <div class="menu-tree">
+                <li class="menu-item menu-level-0" style="dislay:block"><span class="menu-item-label"><span class="menu-item-event" data-event="select" data-param="0">dashboard</span></span></li>
+                <li class="menu-item menu-level-0" style="dislay:block"><span class="menu-item-label"><span class="menu-item-event" data-event="select" data-param="1">map</span></span></li>
+                <li class="menu-item menu-level-0" style="dislay:block"><span class="menu-item-label"><span class="menu-item-event" data-event="select" data-param="2">settings</span></span></li>
+                <li class="menu-item menu-level-0" style="dislay:block"><span class="menu-item-label"><span class="menu-item-event" data-event="select" data-param="3">logout</span></span></li>
+            </div>
+        </div>
+        <div id="topbar" style="">
+            <!-- <span id="menubutton"><img src="img/menu.png" width="36" height="36"></span> -->
+            <span id="menubutton"><i class="fas fa-bars"></i></span>            
+            <!-- <span id="backbutton"><img src="img/nav_back_white.png" width="36" height="36"></span> -->
+            <span id="backbutton" style="display: none;"><i class="fas fa-home"></i></span>
+            <span id="topbartitle">dashboard</span>
+            <!-- <span id="reloadbutton"><i class="fas fa-ellipsis-v"></i></span>            -->
+            <span id="morebutton" style="visibility: visible;"><i class="fas fa-sync-alt"></i></span>
+            <!-- <div class="clear"></div> -->
+        </div>
+        <div id="more"></div>
+        <div id="loadbar" style="top: 564px; display: none; width: 0px;"></div>
+        <div id="view" style="height: 523px;">
+            <div id="page-dashboard">
+                <div id="search_container" style="opacity: 1;">
+                    <div id="dash_clear"><i class="fas fa-times"></i></div>
+                    <div id="dash_search" class="container"><input type="text" placeholder="search"></div>
+                    <div class="clear"></div>
+                </div>
+                <div id="dashboard" style="opacity: 1;">
+                    <span class="title">Requests Overview</span>
+                    <div id="status">
+                        <div class="d-container">
+                            <div class="d_wrapper blank">
+                                <div class="d_button" data-index="0">
+                                    <i class="fab fa-hotjar"></i>
+                                    <div class="have-reqs no"></div>
+                                </div>
+                                <div class="d-btn-label">New</div>
+                            </div>
+                            <div class="d_wrapper ">
+                                <div class="d_button" data-index="1">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="have-reqs yes">1</div>
+                                </div>
+                                <div class="d-btn-label">Accepted</div>
+                            </div>
+                            <div class="d_wrapper ">
+                                <div class="d_button" data-index="2">
+                                    <i class="far fa-calendar-check"></i>
+                                    <div class="have-reqs yes">1</div>
+                                </div>
+                                <div class="d-btn-label">Appointment Set</div>
+                            </div>
+                            <div class="d_wrapper ">
+                                <div class="d_button" data-index="3">
+                                    <i class="fas fa-clipboard-check"></i>
+                                    <div class="have-reqs yes">1</div>
+                                </div>
+                                <div class="d-btn-label">Inspected</div>
+                            </div>
+                            <div class="d_wrapper ">
+                                <div class="d_button" data-index="4">
+                                    <i class="fas fa-adjust"></i>
+                                    <div class="have-reqs yes">1</div>
+                                </div>
+                                <div class="d-btn-label">Conditioned</div>
+                            </div>
+                            <div class="d_wrapper blank">
+                                <div class="d_button" data-index="5">
+                                    <i class="far fa-star"></i>
+                                    <div class="have-reqs no"></div>
+                                </div>
+                                <div class="d-btn-label">Completed</div>
+                            </div>
+                            <div class="d_wrapper blank">
+                                <div class="d_button" data-index="6">
+                                    <i class="far fa-pause-circle"></i>
+                                    <div class="have-reqs no"></div>
+                                </div>
+                                <div class="d-btn-label">On Hold</div>
+                            </div>
+                            <div class="d_wrapper ">
+                                <div class="d_button" data-index="7">
+                                    <i class="far fa-comment-alt"></i>
+                                    <div class="have-reqs yes">62</div>
+                                </div>
+                                <div class="d-btn-label">Notes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="list_container" style="opacity: 1;">
+                    <span class="title">New</span>      
+                    <div id="list" class="scroll" style="height: 568px;">
+                        <div id="requests">
+                            <ul class="ogx_dynamic_list"></ul>
+                            <ul class="ogx_dynamic_list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--bundle.js to be injected here-->
+        <script type="text/javascript" src="./Connexions_files/bundle.js.download"></script>
+    </body>
+</html>
