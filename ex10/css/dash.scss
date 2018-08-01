@@ -52,6 +52,26 @@
     .n_earl {
         box-shadow: 1px 1px 1px #333;   
     }
+    // the container for the percentage diagram and its explanation
+    .n_cindy {
+        box-shadow: 1px 1px 1px #333;   
+
+    }
+    // the wrapper for the diagram
+    .n_antonio {
+        box-shadow: 1px 1px 1px #333;   
+
+    }
+    // the wrapper for the diagram's explanation
+    .n_luis {
+        box-shadow: 1px 1px 1px #333;   
+
+    }
+    // the wrapper for the date explanation (e.g. "closing date")
+    .n_mike {
+        box-shadow: 1px 1px 1px #333;   
+        
+    }
 
 
 }
@@ -83,5 +103,27 @@
             justify-content: center;
             text-transform: uppercase;
         }
+        
+        .n_cindy {
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            align-items: center;
+        }
+
+        // contained blocks inside (children of) the container for the percentage diagram
+        .n_danny {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+
+        .n_luis {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     }
 }

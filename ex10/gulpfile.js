@@ -22,6 +22,7 @@ var input = [
   'css/debug-mobile-first.scss', 
   'css/globals.scss',
   'css/dash.scss',
+  'css/milestones.scss',
   'css/styles1.scss', 
   'css/styles2.scss'  
 ];

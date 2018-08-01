@@ -1,0 +1,144 @@
+@import '_variables';
+
+
+// the container for all the milestone cards
+.n_bryan {
+	// box-shadow: 1px 1px 1px #333;
+	display: flex;
+    flex-direction: column;
+}
+
+// one milestone card; it includes the graphic and the details
+.n_grace {
+	
+	$card_height: 7rem;
+
+	// box-shadow: 1px 1px 1px #333;
+	// border: 1px solid green;
+	display: flex;
+    flex-direction: row;
+    min-height: $card_height;
+    // position: relative;
+
+    .n_curtis {
+    	// border: 1px solid red;
+    	position: relative;
+    	// top: 0;
+    }
+
+    .n_victoria {
+    	// border: 1px solid red;
+    	position: absolute;
+    	top: -($card_height / 4.66666666667);
+    }
+
+    // the graphic part of one milestone card
+	.n_stanley {
+		position: relative;
+		width: 0.5rem;
+		background-color: $clr-milestone-pending;
+		opacity: .5;
+		margin: 0 2rem;
+	    display: flex;
+	    justify-content: center;
+	    min-height: $card_height;
+
+
+
+	    // the milestone's ball, it holds a number
+		.n_wendy {
+			// width: 100%;
+			position: absolute;
+			bottom: 0px;
+			display: flex;
+			justify-content: center;
+			span {
+				$marker_size: 4rem;
+				// position: absolute;
+				// bottom: 0;
+				background-color: $clr-milestone-pending;
+				
+
+				width: $marker_size;
+				height: $marker_size;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+		    	align-items: center;
+		    	color: #fff;
+		    	font-weight: 700;
+    			font-size: 2rem;
+			}
+		}
+
+		
+	}
+	&.first {
+		// margin-top: -1rem;
+		.n_stanley {
+			background-color: transparent !important;
+		}
+	}
+
+	&.last {
+		// padding-bottom: 1rem;
+	}
+
+	&.reached {
+		.n_stanley {
+			background-color: $clr-milestone-reached;
+	    	.n_wendy {
+	    		span {
+	    			background-color: $clr-milestone-reached;
+	    		}
+	    	}
+		}
+	}
+	    	
+}
+
+.n_stanley, .n_leonard {
+	// border: 1px solid $clr-milestone-pending;
+}
+
+
+
+// the milestone's vertical line
+.n_nathan {	
+	position: absolute;
+	// top: 0;
+	
+}
+
+// the details part of one milestone card
+.n_leonard {
+	// border: 1px dashed blue;
+	position: relative;
+	width: 100%;
+	padding-left: 5rem;
+	display: flex;
+    align-items: center;
+
+	
+}
+
+.n_manuel {
+	// border: 1px solid $clr-milestone-reached;
+	
+
+	// background-color: #fff;
+
+	// v1
+	// position: absolute;	
+	// top: 3rem;
+	// left: .5rem;
+	
+	// v2
+	// margin-top: 2rem;
+	// padding-top: 1rem;
+    margin-left: 0.5rem;
+
+	.report {
+		font-weight: 900;
+	}
+}
