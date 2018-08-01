@@ -1,3 +1,5 @@
+@import '_variables';
+
 // https://snook.ca/archives/html_and_css/font-size-with-rem
 html { font-size: 62.5%; } 
 body { font-size: 14px; font-size: 1.4rem; } /* =14px */
@@ -14,4 +16,6 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: $clr-bkg-body;
+	margin: 0;
 }

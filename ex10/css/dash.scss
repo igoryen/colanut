@@ -5,71 +5,71 @@
 #n_johnny {
     margin-top: 4rem;
     // border: 3px solid red;
-    box-shadow: 1px 1px 1px #333;
+    // box-shadow: 1px 1px 1px #333;
     width: 100%;
 
     .n_clarence {
         // border: 3px solid brown;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
     }
 
     .n_philip {
         // border: 3px solid lightgrey;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
         display: flex;
         flex-direction: column;
     }
 
     .n_edna {
         // border: 3px solid navy;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
     }
 
     // each of the 3 columns
     .n_tiffany {
         // border: 3px solid limegreen;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
     }
     
     // heading of each of 3 columns
     .n_tony {
         // border: 3px solid darkorange;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
         
     }
     // one of n content blocks of each of 3 column
     .n_rosa {
         // border: 1px solid dodgerblue;
-        box-shadow: 1px 1px 1px #333;
+        // box-shadow: 1px 1px 1px #333;
     }
     
     // the heading of a content block of each of 3 columns
     .n_jimmy {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
     }
     // the content of a content block of each of 3 columns
     
     .n_earl {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
     }
     // the container for the percentage diagram and its explanation
     .n_cindy {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
 
     }
     // the wrapper for the diagram
     .n_antonio {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
 
     }
     // the wrapper for the diagram's explanation
     .n_luis {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
 
     }
     // the wrapper for the date explanation (e.g. "closing date")
     .n_mike {
-        box-shadow: 1px 1px 1px #333;   
+        // box-shadow: 1px 1px 1px #333;
         
     }
 
@@ -86,8 +86,8 @@
     #n_johnny { 
 
         .n_tiffany {
-            padding: 1rem;
-            margin: 1rem;
+            // padding: 1rem;
+            // margin: 1rem;
 
         }
 
@@ -102,6 +102,17 @@
             display: flex;
             justify-content: center;
             text-transform: uppercase;
+            border-bottom: 1px solid #f2f2f2;
+            color: $clr-box-title;
+        }
+
+        .n_rosa {
+            background-color: $clr-bkg-card;
+            padding: 0 1rem;
+            margin: 1rem;
+            box-shadow: 1px 1px 1px $clr-card-shadow;
+
+
         }
         
         .n_cindy {
@@ -109,6 +120,7 @@
             justify-content: center;
             text-transform: uppercase;
             align-items: center;
+            background-color: $clr-bkg-card;
         }
 
         // contained blocks inside (children of) the container for the percentage diagram
@@ -123,6 +135,185 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        // container for File Information
+        .n_rodney {
+            background-color: $clr-bkg-card;
+        }
+        // single row inside the container for File Information
+        .n_norman {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 0.5rem 0;
+            .title {
+                font-weight: 700;
+                color: $clr-file-info-title;
+                padding-right: 0.5rem;
+                width: 50%;
+                text-align: right;
+            }
+            .value {
+                color: $clr-file-info-value;
+                padding-left: 0.5rem;
+                width: 50%;
+            }
+
+        }
+        // container for the map
+        .n_edith {
+            background-image: url(../../img/map.png);
+            // background-size: 100%
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 24rem;
+        }
+        
+        // container for the mortgage amount
+        .n_sherry {
+            display: flex;
+            justify-content: center;
+            span {
+                font-size: 3rem;
+                font-weight: 700;
+                color: $clr-mortgage-amount;
+            }
+        }
+
+
+        // container for all people who are file participants
+        .n_sylvia {
+
+        }
+        // a wrapper for single persion who is a file participant
+        .n_josephine {
+            padding: 0.5rem 0;
+            background-color: $clr-bkg-card;
+
+            .photo {
+                float: right;
+            }
+            .name {
+                color: $clr-file-participant-name;
+                font-weight: 700;
+                font-size: 2rem;
+            }
+            img {
+                width: 6rem;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+
+
+
+
+        // container for file notes
+        .n_allen {
+            background-color: $clr-bkg-notes-container;
+            .add-note {
+                // text-align: right;
+                width: 100%;
+                button {
+                    border-radius: 0.4rem;
+                    border: 0;
+                    padding: 0.5rem;
+                    width: 100%;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 1.6rem;
+                }
+                
+            }
+        }
+        
+        // wrapper for a single note 
+        .n_thelma {
+
+            $button-border-radius: 0.4rem;
+
+            background-color: $clr-bkg-card;
+            // box-shadow: 1px 1px 1px #333;
+            padding: 1rem;
+            margin: 1rem 0;
+
+            .recipients-block {
+                font-size: 1rem;
+                color: $clr-note-recipients;
+                span {
+                    
+                    
+                    &:first-child {
+                        font-weight: 600;
+                        
+                    }
+                }
+            }
+
+            .note-attachments {
+                color: gray;
+                text-align: right;
+                i {
+                    padding-right: 1rem;
+                }
+            }
+
+            .recepients {
+
+            }
+
+            .note-text {
+                padding: 1rem 0;
+            }
+            // the container for info and controls under the note text
+            .n_sheila {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 1rem;
+                button {
+                    background-color: $clr-note-reply-button;
+                    border-radius: $button-border-radius;
+                    padding: 0.5rem;
+                    min-width: 6rem;
+                    color: #fff;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 600;
+                    border: 0;
+                }
+            }
+            // wrapper for the name of the author of the note and its date and time
+            .n_ethel {
+                .note-author {
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                }
+                .note-date-time {
+                    color: $clr-note-date-time;
+                    font-size: 1.2rem;
+                }
+
+            }
+            // wrapper for the controls for the note
+            .n_marjorie {
+                display: flex;
+                justify-content: flex-start;
+                button {
+                    font-family: 'Open Sans', sans-serif;
+                    margin-right: 0.6rem;
+                    padding: .7rem;
+                    border-radius: $button-border-radius;
+                    border: 0;
+                    font-size: 1rem;
+                    i {
+                        padding-right: 0.5rem;
+                    }
+                }
+            }
         }
 
     }

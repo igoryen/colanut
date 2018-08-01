@@ -5,10 +5,34 @@ $dusty_gray: #999999;
 $gray: #808080;
 $dove_gray: #666666;
 $tundora: #4d4d4d;
+$alto: #d9d9d9;
+
+$concrete: #f2f2f2;
 
 
+$clr-bkg-body: $concrete;
 
+$clr-box-title: $gray;
+
+$clr-bkg-card: #ffffff;
+$clr-card-shadow: $alto;
 
 $clr-milestone-reached: $tundora;
-
 $clr-milestone-pending: $dusty_gray;
+
+// color of the file info title
+$clr-file-info-title: $dove_gray;
+$clr-file-info-value: $dusty_gray;
+$clr-mortgage-amount: $tundora;
+
+
+// file participants
+$clr-file-participant-name: $tundora;
+
+
+// file notes
+// the color of the background of the file-notes container
+$clr-bkg-notes-container: #f2f2f2;
+$clr-note-reply-button: $dove_gray;
+$clr-note-recipients: $dusty_gray;
+$clr-note-date-time: $dusty_gray;
