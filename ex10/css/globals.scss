@@ -16,6 +16,14 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: $clr-bkg-body;
+	background-color: $clr_0001;
 	margin: 0;
+
+	div {
+		// border: 1px solid blue;
+	}
+}
+
+button, input {
+	font-family: 'Open Sans', sans-serif;
 }

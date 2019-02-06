@@ -1,0 +1,101 @@
+#tour_section-20 {
+    .elementor-testimonial__footer {
+        display: block;
+    }
+    .swiper-slide {
+        box-shadow: #cccccc 0px 0px 12px 0px;
+        img {
+            /*border: 1px solid red;*/
+            width: 300px !important;
+            height: auto !important;
+            // width: 100%;
+        }
+    }
+    .swiper-wrapper {
+        padding-bottom: 1em;
+    }
+    .swiper-pagination-bullet {
+        background-color: #308dca;
+        opacity: 1;
+        width: 1em !important;
+        height: 1em !important;
+    }
+    .elementor-testimonial__text {
+        text-align: left;
+        padding: 0 1em;
+    }
+    .elementor-testimonial__name {
+        text-align: right;
+        padding: 0 3em;
+        &:before {
+            content: "\2014";
+            margin-right: 0.5em;
+        }
+    }
+    .elementor-testimonial__title {
+        display: none;
+    }
+    .elementor-testimonial__image {
+        min-height: 6em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #47aff6;
+    }
+
+}
+// selector .swiper-slide {
+//     box-shadow: #cccccc 0px 0px 12px 0px;
+// }
+// selector .swiper-slide img {
+//     /*border: 1px solid red;*/
+//     /*width: 300px !important;*/
+//     height: auto !important;
+//     width: 100%;
+// }
+
+// selector .swiper-wrapper {
+//     padding-bottom: 1em;
+// }
+
+// selector .swiper-pagination-bullet {
+//     background-color: #308dca;
+//     opacity: 1;
+//     width: 1em !important;
+//     height: 1em !important;
+// }
+
+// selector .elementor-testimonial__text {
+//     text-align: left;
+//     padding: 0 1em;
+// }
+
+// selector .elementor-testimonial__name {
+//     text-align: right;
+//     padding: 0 3em;
+// }
+
+// selector .elementor-testimonial__name:before {
+//     content: "\2014";
+//     margin-right: 0.5em;
+// }
+
+// selector .elementor-testimonial__title {
+//     display: none;
+// }
+
+// selector .elementor-testimonial__image {
+//     min-height: 6em;
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+    
+// }
+
+// selector .swiper-pagination-bullet-active {
+//     background-color: #47aff6;
+// }

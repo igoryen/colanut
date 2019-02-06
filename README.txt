@@ -25,3 +25,38 @@ ex05
 ex06
 	a mockup of the dashboard page for Connexions Mobile
 
+ex07
+	pages for for WP NRS
+	index.html  
+	page1.html 
+	...
+ex08
+	Making a hole using CSS
+
+ex09
+	Leadership page with Modals
+
+ex10
+	New HCS portal page
+
+ex11
+	Avocado (CNX Online Help) - Admin page
+
+ex12 - 181010 - 2 mockups for tomato ()
+
+ex13 - 181012
+	accordion with carousel inside ()
+
+ex14
+	accordion with carousel in each item
+
+ex15 - 3 versions of carousel with tabs - as accordion on mobile
+
+ex16 - 181026
+	CNX brochure website - new design ()
+
+ex17 - 181029
+	the leadership page - a copy ready to be transplanted
+
+ex18 - 181101
+	html for the Admin online help

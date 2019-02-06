@@ -1,0 +1,82 @@
+@import '_variables';
+
+
+
+
+
+
+.n_joann {
+    border: 1px dashed lightcyan;
+    display: flex;
+    flex-direction: column;
+    margin-top: -4rem;
+}
+
+
+//-------------------------------
+
+
+.n_sally {
+    border: 3px dashed seagreen;
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+//----------------------------
+
+.n_regina {
+    // flex: 1 0 32rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+
+    div {
+        border: 1px solid red;
+        flex: 0 1 15rem;
+    }
+}
+
+//----------------------
+
+.n_erica {
+    border: 2px dashed indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.n_beatrice {
+    border: 2px solid lawngreen;
+}
+
+.n_dolores {
+    border: 2px solid burlywood;
+}
+
+//-------------------------------------
+
+.n_bernice {
+    border: 2px solid teal;
+
+}
+
+.n_mario {
+    button:last-child {
+        background-color: $cnx_clr_0009;
+    }
+}
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+        .n_june {
+            padding: 0 3rem;
+        }
+        
+    }

@@ -1,0 +1,53 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                 ATTENTION:
+   THIS IS NOT THE CSS YOU ARE LOOKING FOR!
+      IT WAS GENERATED FROM A SASS FILE 
+       WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+body[data-elementor-device-mode="mobile"] {
+    .elementor-244 {
+        .elementor-element{
+            &.elementor-element-4e8ab704 {
+                & > .elementor-widget-container {
+                    box-shadow: 0px 0px 0px 0px rgba(183,183,183,0.52);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) and (min-width: 360px) {
+    .elementor-244 {
+        .elementor-element{
+            &.elementor-element-22f1c24a {
+                margin-top: -5%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .elementor-244 {
+        .elementor-element {
+            &.elementor-element-e4de3b3 {
+                & > .elementor-element-populated {
+                    padding: 0% 0% 70% 0%;
+                }
+            }
+            &.elementor-element-76300ea {
+                .elementor-heading-title {
+                    font-size: 30px; // hero title 
+                }
+            }
+            &.elementor-element-ea0c216 {
+                font-size: 17px; // hero paragraph
+                margin-top: -10px;
+            }
+            &.elementor-element-22f1c24a {
+                margin-top: -5%; // section intro
+            }
+        }
+    }
+}

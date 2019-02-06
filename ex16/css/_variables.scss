@@ -1,0 +1,43 @@
+$mercury: #e7e7e7;
+
+// WHITES
+$white: #fff;
+
+// BLUES
+$venice_blue: #054877;
+@mixin venice_blue_rgba($n) {
+	background-color: rgba(5, 72, 119, $n);
+}
+// $venice_blue_rbg: rgba(5, 72, 119, 0);
+$picton_blue: #58b1ef;
+$denim: #116fb0;
+
+// BLACKS
+$mine_shaft: #333333;
+
+
+
+
+
+$cnx_clr_0001: #C6E5F7; // Tropical Blue
+$cnx_clr_0002: $venice_blue; 
+	// 1) the background of the footer.
+	// 2) the font of the labels of the buttons in the header
+$cnx_clr_0003: #013A67; // Regal Blue
+$cnx_clr_0004: #308DCA; // Curious Blue
+$cnx_clr_0005: #FB2232; // Torch Red
+$cnx_clr_0006: $white; // 
+	// 1) Background of the main content of the page. 
+	// 2) button label. 
+	// 3) header background.
+	// 4) background of header buttons 
+$cnx_clr_0007: #4169e1;
+$cnx_clr_0008: $picton_blue; // background of the buttons
+$cnx_clr_0009: $denim;
+$cnx_clr_0010: $mine_shaft;
+
+
+
+$cnx_font_0001: 'Open Sans', sans-serif;
+$cnx_font_0002: 'Merriweather', serif;
+// $cnx_font_0003: 'PT Sans Caption', sans-serif;

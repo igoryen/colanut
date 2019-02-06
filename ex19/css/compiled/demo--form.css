@@ -1,0 +1,173 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR!
+IT WAS GENERATED FROM A SASS FILE 
+WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.elementor-1505 .elementor-element.elementor-element-b7280aa .elementor-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+}
+
+.elementor-1505 .elementor-element.elementor-element-b7280aa .elementor-message:before {
+  content: "";
+}
+
+#demo_section-04 form.elementor-form {
+  /*input {
+				#form-field-93dc644-0 {
+		
+				}
+			}*/
+}
+
+#demo_section-04 form.elementor-form input[type="checkbox"][id$="req_demo_form_acceptance"] {
+  display: none;
+}
+
+#demo_section-04 form.elementor-form input[type="checkbox"] + label {
+  color: #333333 !important;
+  font-family: "Merriweather", serif !important;
+  cursor: pointer;
+  font-size: 24px !important;
+  color: red;
+}
+
+#demo_section-04 form.elementor-form input[type="checkbox"] + label:before {
+  content: "\00a0";
+  width: 2em;
+  height: 2em;
+  background: #fff;
+  border: 2px solid #939495;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-weight: 900;
+  color: blue;
+  padding: 0.3em 0.4em;
+  margin-right: 1em;
+}
+
+#demo_section-04 form.elementor-form input[type="checkbox"]:checked + label:before {
+  content: "\f00c";
+  border: 2px solid #499ad1;
+  background-color: #cde8fb;
+  color: #499ad1;
+}
+
+#demo_section-04 form.elementor-form label:hover {
+  color: #cde8fb;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group.elementor-field-required {
+  position: relative;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group.elementor-field-required:before {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  content: "*";
+  font-size: 1.5em;
+  color: #ed1c24;
+  display: inline-block;
+  z-index: 5;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group.elementor-field-required.elementor-field-type-select:before {
+  top: 20px;
+  left: 12px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group.elementor-field-required input, #demo_section-04 form.elementor-form .elementor-field-group.elementor-field-required select {
+  padding-left: 1.2em;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group.elementor-field-group-cb77b2c {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #666666;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual::-webkit-input-placeholder {
+  font-size: 24px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual:-ms-input-placeholder {
+  font-size: 24px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual::-ms-input-placeholder {
+  font-size: 24px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual::placeholder {
+  font-size: 24px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-select-wrapper select {
+  background-color: #cde8fb;
+}
+
+#form-field-how_can_we_help {
+  background-color: #cde8fb;
+  border: 1px solid #499ad1;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form button[type="submit"] {
+  width: 100%;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form .elementor-field-group-contact_acceptance label {
+  color: red;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form input[type="checkbox"][id$="contact_acceptance"] {
+  display: none;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form input[type="checkbox"] + label {
+  font-size: 18px !important;
+  margin-left: 3em;
+  display: block;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form input[type="checkbox"] + label:before {
+  margin-left: -3em;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual::placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="desktop"] #demo_section-04 form button[type="submit"],
+body[data-elementor-device-mode="tablet"] #demo_section-04 form button[type="submit"] {
+  width: 25%;
+}
+
+/*# sourceMappingURL=demo--form.css.map */

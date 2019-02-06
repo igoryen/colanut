@@ -1,0 +1,270 @@
+@import '_variables';
+
+
+.n_cathy {
+    border: 3px dashed red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background-color: $cnx_clr_0006;
+    
+    justify-content: space-between;
+
+}
+
+$height: 50rem;   
+.n_june {
+    border: 1px solid blue;
+    position: relative;
+    width: 100%;
+     
+}
+
+.bkg2 {
+    background-image: url(../../img/circuits2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    // border: 2px solid wheat;
+    height: $height;
+    // background-color: red;
+    width: 80%;
+}
+
+.bkg3 {
+    background-image: url(../../img/bottom_split2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    // border: 2px solid wheat;
+    height: $height;
+    // background-color: red;
+    width: 100%;
+}
+.bkg4 {
+    background-image: url(../../img/dot_grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    // border: 2px solid wheat;
+    height: $height;
+    // background-color: red;
+    width: 100%;
+}
+.bkg5 {
+    // @include venice_blue_rgba(0.2);
+    // // background-repeat: no-repeat;
+    // // background-position: center;
+    // // background-size: cover;
+
+    // position: absolute;
+    // right: 0;
+    // top: 0;
+    // // border: 2px solid wheat;
+    // height: $height;
+    // // background-color: red;
+    // width: 100%;
+}
+.bkg6 {
+    // @include venice_blue_rgba(0.2);
+    // background-image: url(../../img/dot_grid.png);
+
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    // border: 2px solid wheat;
+    // height: $height;
+    // background-color: red;
+    // width: 70%;
+
+    display: flex;
+}
+
+.part3 {
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+    
+.right_bkg {
+    background-image: url(../../img/bottom_split.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.the-content {
+	
+	
+	h1 {
+        // font-size: 3rem;
+        font-size: 2.8rem;
+        font-weight: 800;
+        font-family: $cnx_font_0001;
+        line-height: 2.8rem;
+    }
+    p {
+    	font-size: 1.3em;
+    }
+    h1, p {
+        color: $cnx_clr_0006;
+    }
+}
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+    	$height: 50rem;
+			.n_cathy {
+				height: $height + 6;
+			}
+
+	        .bkg1 {
+		        background-image: url(../../img/bkg/hero-bkg-s.jpg);
+		        background-repeat: no-repeat;
+		        background-position: 56% center;
+		        background-size: cover;
+
+		        position: absolute;
+		        left: 0;
+		        top: 0;
+		        border: 2px solid wheat;
+		        height: $height;
+		        // background-color: red;
+		        width: 100%;
+		    }
+
+		    .bkg6 {
+		    	// width: 80%;
+		    	background-image: url(../../img/phonehome2.svg);
+		        background-repeat: no-repeat;
+		        background-position: bottom left;;
+		        background-size: 115%;
+		        position: absolute;
+		        left: 0;
+		        top: 0;
+		        border: 2px solid wheat;
+		        height: $height + 3;
+		        // background-color: red;
+		        // width: 100%;
+		        width: auto;
+	    		margin-left: -2rem;
+		    	
+	    		// justify-content: le;
+		    	img {
+		    		width: 115%;
+				    margin-right: -5rem;
+				    overflow: hidden;
+				    border:1px solid red;
+		    	}
+		    	
+		    }
+
+		    .the-content {
+				padding: 2rem 4rem;
+				line-height: 2.5rem;
+		    }
+        
+    }
+
+    @media screen and (min-width: 768px) {
+    	$height: 50rem;
+
+        .bkg1 {
+	        background-image: url(../../img/bkg/hero-bkg-s.jpg);
+	        background-repeat: no-repeat;
+	        background-position: center;
+	        background-size: cover;
+
+	        position: absolute;
+	        left: 0;
+	        top: 0;
+	        border: 2px solid wheat;
+	        height: $height;
+	        // background-color: red;
+	        width: 100%;
+	    }
+        
+    }
+
+    @media screen and (min-width: 768px) {
+    	$height: 50rem;
+
+        .bkg1 {
+	        background-image: url(../../img/bkg/hero-bkg-m.jpg);
+	        background-repeat: no-repeat;
+	        background-position: center;
+	        background-size: cover;
+
+	        position: absolute;
+	        left: 0;
+	        top: 0;
+	        border: 2px solid wheat;
+	        height: $height;
+	        // background-color: red;
+	        width: 100%;
+	    }
+        
+    }
+
+    @media screen and (min-width: 1024px) {
+    	$height: 50rem;
+
+        .bkg1 {
+	        background-image: url(../../img/bkg/hero-bkg-l.jpg);
+	        background-repeat: no-repeat;
+	        background-position: center;
+	        background-size: cover;
+
+	        position: absolute;
+	        left: 0;
+	        top: 0;
+	        border: 2px solid wheat;
+	        height: $height;
+	        // background-color: red;
+	        width: 100%;
+	    }
+        
+    }
+
+    @media screen and (min-width: 1280px) {
+    	$height: 50rem;
+
+        .bkg1 {
+	        background-image: url(../../img/bkg/hero-bkg-x.jpg);
+	        background-repeat: no-repeat;
+	        background-position: center;
+	        background-size: cover;
+
+	        position: absolute;
+	        left: 0;
+	        top: 0;
+	        border: 2px solid wheat;
+	        height: $height;
+	        // background-color: red;
+	        width: 100%;
+	    }
+        
+    }

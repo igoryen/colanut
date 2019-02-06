@@ -1,0 +1,29 @@
+/* !!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS FILE WHICH MUST BE MODIFIED INSTEAD! 
+CNX > Tour > Section Intro - mobile accordion
+!!!!!!!!!!*/
+
+// styling the list of the accordion on mobile
+#tour_section-intro_mobile {
+	.elementor-tab-content {
+		ul {
+			padding-left: 0;
+		}
+		li {
+		    // border: 1px solid red;
+		    list-style: none;
+		    margin-left: 29px;
+		    margin-bottom: 15px;
+
+		    &:before {
+		        content: "\f0a9";
+		        margin-right: 10px;
+		        margin-left: -29px;
+		        color: #298dd3;
+		        font-family: "Font Awesome 5 Free";
+		        font-weight: 900;
+		    }
+		}
+	}
+}
+

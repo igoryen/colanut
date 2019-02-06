@@ -1,0 +1,318 @@
+@import '_variables';
+
+#actamofis01 {
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 15; /* Sit on top */
+        // padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        // background-color: $cnx_clr_0013;
+
+        color:  $cnx_clr_0012;
+        font-family: $cnx_font_0001;
+        font-size: 16px;
+
+
+
+        //-----------------
+        .cross {
+            width: $cross-size;
+            position: absolute;
+            top: $cross-pad;
+            right: $cross-pad;
+            z-index: 5;
+            // height: 100px;
+            // border: 1px solid blue;
+            div {
+                height: $cross-size;
+                // height: auto;
+                position: relative;
+                background-color: #cccccc;
+                border-radius: 12%;
+                padding: 1%;
+
+                &:before {
+                    left: 50%;
+                    width: 20%;
+                    margin-left: -10%;
+                    height: 60%;
+                    top: 20%;
+                }
+                &:after {
+                    top: 50%;
+                    height: 20%;
+                    margin-top: -10%;
+                    width: 60%;
+                    left: 20%;
+                }
+                &:before,
+                &:after {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    background: #ffffff;
+                    transform: rotate(45deg);
+                }
+            }                    
+        }
+        //-----------------
+    }
+
+    .modal-headshot {
+        // border: 3px solid brown;
+        position: relative;
+    }
+
+   
+
+    .member-photo {
+        // height: 100%;
+    }
+
+    /* Modal Content */
+    .modal-content {
+
+        display: flex;
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 95%;
+        max-width: 1350px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s;
+        // border: 3px solid red;
+    }
+
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+    }
+
+    @keyframes animatetop {
+        from {top: -300px; opacity:0}
+        to {top: 0; opacity:1}
+    }
+
+    /* The Close Button */
+    .close {
+        color: $cnx_clr_0012;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: $cnx_clr_0012;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .modal-header {
+        padding: 2px 16px;
+        line-height: 2.1em;
+        // background-color: $cnx_clr_0013;
+        // color: white;
+    }
+
+    .modal-body {
+        padding: 2px 16px;
+        line-height: 1.5;
+    }
+
+    .modal-footer {
+        padding: 2px 16px;
+        // background-color: $cnx_clr_0013;
+        color: white;
+    }
+
+
+    
+}
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+        #actamofis01 {
+
+            .modal {
+                // height: 99vh;
+                .member-photo {
+                    
+                    // box-shadow: 1px 1px 1px rgba(255,255,255, 0.1);
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+                    $modal_img_size: 100%;
+                    height: $modal_img_size - 5;
+                    width: $modal_img_size - 10;
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: cover;
+                }
+            }
+
+            .modal-content {
+                flex-direction: column;
+                align-items: center;
+                height: 97vh;
+                overflow-y: auto;
+            }
+
+            .modal-headshot {
+                width: 100%;
+            }
+
+            .modal-headshot-background {
+                background:#212531;
+                background: linear-gradient(to right bottom, $cnx_clr_0002 50%, transparent 50%);
+
+                display:flex;
+                // padding:0.75em 2.0em;
+                // padding: 4em 12em;
+                font-size:1.5em;
+                text-align:center;
+                // margin:0.25em 0;
+                color:#ffffff;
+                font-weight:normal;
+                text-transform:uppercase;
+                font-family:sans-serif;
+
+                padding-top: 100%;
+
+                width: 100%;
+
+            }
+
+            .modal-headshot-foreground {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                // border: 3px solid wheat;
+            }
+
+         
+            
+
+            .modal-header {
+                margin: 20px 0 5px;
+                h2, h3 {
+                    font-size: 20px;
+                    margin: 0;
+                }
+                h2 {
+                    font-weight: 700;
+                    // margin-bottom: 0;
+                }
+                h3 {
+                    font-weight: 500;
+                    font-style: italic;
+                    // margin-top: 0;
+                }
+            }
+
+            .modal-body {
+
+                p {
+                    font-family: $cnx_font_0002;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+
+
+
+    @media screen and (min-width: 568px) {
+        #actamofis01 {
+
+            .modal-content {
+                flex-direction: row;
+                align-items: flex-start;
+                height: auto;
+                max-height: 95vh;
+                overflow-y: unset;
+            }
+            .modal-headshot {
+                max-width: 35%;
+                // border: 1px solid red;
+                // max-width: 500px;
+            }
+            .modal-description {
+                width: 100%;
+                padding-right: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+            
+            .modal-header {
+                line-height: 2.6em;
+                h2, h3 {
+                    font-size: 34px;    
+                }
+                
+            }
+            .modal-body {
+                // max-height: 45vh;
+                // max-height: calc(45vh + 100px);
+                // max-height: 450px;
+                max-height: 59vh;
+
+                margin-bottom: 5%;
+
+                overflow-y: auto;
+                p {
+                    font-size: 20px;
+                }
+            }
+            .modal {
+                .member-photo {
+                    $modal_img_size: 100%;
+                    height: ($modal_img_size - 10);
+                    width: ($modal_img_size - 15);
+                    // height: 100%;
+                    // width: 100%;
+                }    
+            }
+            
+            .modal-headshot-background {
+                padding-top: 130%;
+            }
+            .modal-headshot-foreground {
+                justify-content: center;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        #actamofis01 {
+
+            .modal-body {
+                max-height: 450px;
+            }
+        }
+    }

@@ -1,0 +1,28 @@
+/* !!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS FILE WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!*/
+
+selector {
+	.elementor-accordion {
+		.elementor-tab-title {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			&.elementor-active {
+			    background-color: #298dd3;
+			}
+		}
+		.elementor-tab-content {
+			a {
+				font-family: 'Open Sans', sans-serif;
+				color: #054877;
+				text-decoration:none;
+				font-weight: 700;
+				&:hover {
+					text-decoration: underline;
+				}
+			}			
+		}
+	}
+}
+

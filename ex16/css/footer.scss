@@ -1,0 +1,61 @@
+@import '_variables';
+
+#footer_section {
+	border: 3px solid green;
+
+}
+
+
+
+// .n_footer {
+// 	display: flex;
+//     width: 100%;
+//     flex-direction: row;    
+
+
+
+
+
+// }
+
+.n_bernard {
+	color: #fff;
+	a {
+		color: #fff;
+	}
+}
+
+.n_yvonne {
+	border: 2px solid #fff;
+	
+}
+
+.n_francisco {
+	border: 2px solid ivory;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.n_leroy {
+	img {
+		border: 1px solid azure;
+		height: 10rem;
+		width: 3rem;
+	}
+}
+
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 300px) {
+		.n_yvonne {
+			// border: 2px solid #fff;
+			width: 100%;
+		}
+        
+    }

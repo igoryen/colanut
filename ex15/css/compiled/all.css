@@ -1,0 +1,1831 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* =14px */
+h1 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+/* =24px */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html.no-scroll {
+  overflow-y: hidden;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#tafis_home_page .tafis-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+#tafis_home_page .tafis-container .tafis--buttons button {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  color: #054877;
+  font-weight: bold;
+  padding: 7px 0 5px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#tafis_home_page .tafis-container .tafis--buttons button:hover {
+  color: #308dca;
+}
+
+#tafis_home_page .tafis-container .tafis--buttons button.active {
+  color: #308dca;
+  border-bottom: 2px solid #308dca;
+}
+
+#tafis_home_page .tafis-container .tafis--buttons span {
+  font-weight: 900;
+  margin: 0 1em;
+}
+
+#tafis_home_page .tafis-container .tafis--frames-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 10;
+}
+
+#tafis_home_page .tafis-container .tafis {
+  background-color: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: #ccc 1px 1px 14px 2px;
+          box-shadow: #ccc 1px 1px 14px 2px;
+}
+
+#tafis_home_page .tafis-container .owl-item {
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+
+#tafis_home_page .tafis-container .tafis--frame {
+  margin: 0 auto;
+}
+
+#tafis_home_page .tafis-container .tafis--frame h1 {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1em;
+  margin-top: 0;
+}
+
+#tafis_home_page .tafis-container .tafis--frame p, #tafis_home_page .tafis-container .tafis--frame li {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+#tafis_home_page .tafis-container .tafis--frame ul {
+  padding-left: 40px;
+}
+
+#tafis_home_page .tafis-container .tafis--frame li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#tafis_home_page .tafis-container .tafis--frame li i {
+  color: #298dd3;
+  padding-right: 15px;
+  margin-left: -40px;
+  font-size: 25px;
+}
+
+#tafis_home_page .tafis-container .tafis--images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#tafis_home_page .tafis-container .tafis--images-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  width: 324px;
+  padding: 0 26px 0 30px;
+  background-color: #ececec;
+}
+
+#tafis_home_page .tafis-container .tafis--images-wrapper:after {
+  content: "";
+  width: 94%;
+  height: 17px;
+  -webkit-box-shadow: #333 0px 6px 8px 4px;
+          box-shadow: #333 0px 6px 8px 4px;
+  position: absolute;
+  bottom: 2px;
+  left: 11px;
+  border-radius: 50%;
+  background-color: #333;
+  z-index: -3;
+}
+
+#tafis_home_page .tafis-container .tafis--image {
+  display: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 43rem;
+  margin-bottom: -1px;
+}
+
+#tafis_home_page .tafis-container .tafis--image.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+
+#tafis_home_page .tafis-container .tafis--accordion-item {
+  display: none;
+  margin: 0 auto;
+  color: #333333;
+}
+
+#tafis_home_page .tafis-container .tafis--accordion-item h1 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#tafis_home_page .tafis-container .tafis--accordion-item p, #tafis_home_page .tafis-container .tafis--accordion-item li {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+#tafis_home_page .tafis-container .tafis--accordion-item.active {
+  display: block;
+}
+
+#tafis-image_01,
+#tafis-image_02,
+#tafis-image_03,
+#tafis-image_04,
+#tafis-image_05,
+#tafis-image_06,
+#tafis-image_07,
+#tafis-image_08,
+#tafis-image_09 {
+  background-image: url(../../img/tafis-frame-img-01.png);
+}
+
+@media screen and (min-width: 300px) {
+  #tafis_home_page .tafis-container .owl-dots {
+    display: none;
+  }
+  #tafis_home_page .tafis-container .tafis--frame {
+    margin: 2rem 1rem 0;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion {
+    width: 100%;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button {
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    background-color: #013b65;
+    color: #ffffff;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 1rem 1.4rem;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button span.closed {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button span.open {
+    display: none;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button.active {
+    background-color: #298dd3;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button.active span.closed {
+    display: none;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion button.active span.open {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion-item {
+    padding: 2rem;
+    background-color: #ffffff;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion-item li {
+    margin-top: 1rem;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion-item li:before {
+    content: "\f0a9";
+    color: #308dca;
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    margin-right: 6px;
+    font-size: 20px;
+  }
+  #tafis_home_page .tafis-container .tafis--buttons, #tafis_home_page .tafis-container .tafis--frames-images {
+    display: none;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #tafis_home_page .tafis-container {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #tafis_home_page .tafis-container .tafis--frame {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  #tafis_home_page .tafis-container .tafis--frame h1 {
+    display: block;
+  }
+  #tafis_home_page .tafis-container .tafis--buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    white-space: normal;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #tafis_home_page .tafis-container .tafis--frames-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #tafis_home_page .tafis-container .tafis {
+    max-width: 100%;
+  }
+  #tafis_home_page .tafis-container .tafis--images {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2em;
+  }
+  #tafis_home_page .tafis-container .tafis--accordion {
+    display: none;
+    width: 100%;
+    border: 1px teal;
+  }
+  #tafis_home_page .tafis-container .owl-theme .owl-dots .owl-dot span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5px 2px;
+    background: #308dca !important;
+  }
+  #tafis_home_page .tafis-container .owl-theme .owl-dots .owl-dot.active span {
+    background: #47aff6 !important;
+  }
+  #tafis_area {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #tafis_home_page .tafis-container .tafis--buttons {
+    font-size: inherit;
+  }
+  #tafis_home_page .tafis-container .tafis {
+    width: 59%;
+  }
+  #tafis_home_page .tafis-container .tafis--frames-images {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #tafis_home_page .tafis-container .tafis--images {
+    margin-top: 0;
+    width: 273px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #tafis_home_page .tafis-container .tafis {
+    width: 62%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  #tafis_home_page .tafis-container .tafis {
+    width: 64%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #tafis_home_page .tafis-container .tafis {
+    width: 68%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #tafis_home_page .tafis-container .tafis {
+    width: 69%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #tafis_home_page .tafis-container .tafis {
+    width: 71%;
+  }
+}
+
+#tafis_tour_page .tafis-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+#tafis_tour_page .tafis-container .owl-dots {
+  display: none;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons {
+  white-space: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons a {
+  text-decoration: none;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons button, #tafis_tour_page .tafis-container .tafis--buttons a {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  color: #054877;
+  font-weight: bold;
+  padding: 7px 0 5px;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons button:hover, #tafis_tour_page .tafis-container .tafis--buttons a:hover {
+  color: #308dca;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons button.active, #tafis_tour_page .tafis-container .tafis--buttons a.active {
+  color: #308dca;
+  border-bottom: 2px solid #308dca;
+}
+
+#tafis_tour_page .tafis-container .tafis--buttons span {
+  font-weight: 900;
+  margin: 0 1em 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#tafis_tour_page .tafis-container .tafis--frames-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#tafis_tour_page .tafis-container .owl-item {
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame {
+  margin: 2rem 1rem 0;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame h1 {
+  font-size: 26px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame p, #tafis_tour_page .tafis-container .tafis--frame li {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame ul {
+  padding-left: 32px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame li {
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame li:before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f0a9';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-right: 14px;
+  margin-left: -30px;
+  font-size: 24px;
+  vertical-align: middle;
+  font-weight: 900;
+  color: #298dd3;
+}
+
+#tafis_tour_page .tafis-container .tafis--frame li i {
+  padding-left: 31px;
+  color: #298dd3;
+  padding-right: 1rem;
+  margin-left: -2.6rem;
+  font-size: 25px;
+}
+
+#tafis_tour_page .tafis-container .tafis--images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tafis_tour_page .tafis-container .tafis--images-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  width: 27rem;
+}
+
+#tafis_tour_page .tafis-container .tafis--images-wrapper:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  -webkit-box-shadow: #333 1px 1px 8px 10px;
+          box-shadow: #333 1px 1px 8px 10px;
+  position: absolute;
+  bottom: 0px;
+  left: -5px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+#tafis_tour_page .tafis-container .tafis--image {
+  display: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-bottom: 43rem;
+}
+
+#tafis_tour_page .tafis-container .tafis--image.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+}
+
+#tafis_tour_page .tafis-container .tafis--accordion-item {
+  display: none;
+  margin: 0 auto;
+}
+
+#tafis_tour_page .tafis-container .tafis--accordion-item h1 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#tafis_tour_page .tafis-container .tafis--accordion-item p, #tafis_tour_page .tafis-container .tafis--accordion-item li {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+#tafis_tour_page .tafis-container .tafis--accordion-item.active {
+  display: block;
+}
+
+#tafis_tour_page .owl-carousel .owl-stage-outer {
+  padding-bottom: 1em;
+}
+
+#tafis_tour_page .owl-carousel .owl-stage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#tafis_tour_page .owl-item {
+  background-color: #ffffff;
+  -webkit-box-shadow: #ccc 1px 1px 8px 2px;
+          box-shadow: #ccc 1px 1px 8px 2px;
+}
+
+#tafis_tour_page .tafis--frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 1em;
+}
+
+#tafis_tour_page .tafis--frame .icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 10em;
+}
+
+#tafis_tour_page .frame-content {
+  width: 100%;
+}
+
+#tafis_tour_page #tafis-frame_01 .icon {
+  background-image: url(../../img/icon01.png);
+}
+
+#tafis_tour_page #tafis-frame_02 .icon {
+  background-image: url(../../img/icon02.png);
+}
+
+#tafis_tour_page #tafis-frame_03 .icon {
+  background-image: url(../../img/icon03.png);
+}
+
+#tafis_tour_page #tafis-frame_04 .icon {
+  background-image: url(../../img/icon04.png);
+}
+
+#tafis_tour_page #tafis-frame_05 .icon {
+  background-image: url(../../img/icon05.png);
+}
+
+@media screen and (min-width: 300px) {
+  #tafis_tour_page .tafis-container .tafis--buttons, #tafis_tour_page .tafis-container .tafis--frames-images {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #tafis_tour_page .tafis-container .tafis--frame h1 {
+    display: block;
+  }
+  #tafis_tour_page .tafis-container .tafis--buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    white-space: normal;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 4em;
+  }
+  #tafis_tour_page .tafis-container .tafis--frames-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #tafis_tour_page .tafis-container .tafis--images {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2em;
+  }
+  #tafis_tour_page .tafis-container .tafis--accordion {
+    display: none;
+    width: 100%;
+    border: 1px teal;
+  }
+  #tafis_tour_page .tafis-container .owl-theme .owl-dots .owl-dot span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5px 2px;
+    background: #308dca !important;
+  }
+  #tafis_tour_page .tafis-container .owl-theme .owl-dots .owl-dot.active span {
+    background: #47aff6 !important;
+  }
+  #tafis_tour_page .tafis_area {
+    width: 100%;
+    padding: 0 4em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #tafis_tour_page .tafis-container .tafis--buttons {
+    font-size: inherit;
+  }
+  #tafis_tour_page .tafis-container .tafis--frames-images {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #tafis_tour_page .tafis-container .tafis--images {
+    margin-top: 0;
+  }
+  #tafis_tour_page .tafis_area {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #tafis_tour_page .tafis-container .tafis--frame {
+    margin: 2rem 4rem 0;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #tafis_about_page .tafis-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 2rem;
+  }
+  #tafis_about_page .tafis--buttons, #tafis_about_page .tafis--frames-images {
+    display: none;
+  }
+  #tafis_about_page .owl-item {
+    -webkit-transition-duration: 5s;
+            transition-duration: 5s;
+  }
+  #tafis_about_page .tafis--images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #tafis_about_page .tafis--images-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: relative;
+    width: 27rem;
+  }
+  #tafis_about_page .tafis--images-wrapper:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    -webkit-box-shadow: #333 1px 1px 8px 10px;
+            box-shadow: #333 1px 1px 8px 10px;
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
+    border-radius: 50%;
+    background-color: #333;
+  }
+  #tafis_about_page .tafis--image {
+    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 43rem;
+  }
+  #tafis_about_page .tafis--image.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+  }
+  #tafis_about_page .owl-carousel .owl-stage-outer {
+    padding-bottom: 1em;
+  }
+  #tafis_about_page .owl-carousel .owl-stage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #tafis_about_page .tafis--frame {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0em 1em;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(../../img/about-us-gradient-clear-left.png);
+  }
+  #tafis_about_page .tafis--frame h1 {
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4em;
+  }
+  #tafis_about_page .tafis--frame p, #tafis_about_page .tafis--frame li {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    line-height: 1.4em;
+  }
+  #tafis_about_page .tafis--frame li {
+    list-style: none;
+    margin-top: 1rem;
+  }
+  #tafis_about_page .tafis--frame li i {
+    color: #6ec1e4;
+    padding-right: 1rem;
+    margin-left: -2.6rem;
+    font-size: 25px;
+  }
+  #tafis_about_page .tafis--frame a {
+    font-family: "Open Sans", sans-serif;
+    color: #054877;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  #tafis_about_page .tafis--frame a:hover {
+    text-decoration: underline;
+  }
+  #tafis_about_page .tafis--frame .icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 40%;
+  }
+  #tafis_about_page .frame-content {
+    width: 100%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.05) 3px 3px 12px 6px;
+            box-shadow: rgba(0, 0, 0, 0.05) 3px 3px 12px 6px;
+    background-color: #fff;
+    padding: 2em 3em;
+  }
+  #tafis_about_frame_01 .icon {
+    background-image: url(../../img/about-us-01.png);
+  }
+  #tafis_about_frame_02 .icon {
+    background-image: url(../../img/about-us-02.png);
+  }
+  #tafis_about_frame_03 .icon {
+    background-image: url(../../img/about-us-03.png);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #tafis_about_page .tafis--buttons {
+    white-space: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #tafis_about_page .tafis--buttons a {
+    text-decoration: none;
+  }
+  #tafis_about_page .tafis--buttons button, #tafis_about_page .tafis--buttons a {
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: #054877;
+    font-weight: bold;
+    padding: 7px 0 5px;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #tafis_about_page .tafis--buttons button:hover, #tafis_about_page .tafis--buttons a:hover {
+    color: #308dca;
+  }
+  #tafis_about_page .tafis--buttons button.active, #tafis_about_page .tafis--buttons a.active {
+    color: #308dca;
+    border-bottom: 2px solid #308dca;
+  }
+  #tafis_about_page .tafis--buttons span {
+    font-weight: 900;
+    margin: 0 1em 1px;
+    font-family: "Open Sans", sans-serif;
+  }
+  #tafis_about_page .tafis--frames-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #tafis_about_page .tafis--images {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 2em;
+  }
+  #tafis_about_page .owl-theme .owl-dots .owl-dot span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5px 2px;
+    background: #308dca !important;
+  }
+  #tafis_about_page .owl-theme .owl-dots .owl-dot.active span {
+    background: #47aff6 !important;
+  }
+  #tafis_about_page .tafis--frame {
+    background-position: center 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #tafis_about_page .tafis--frame .icon {
+    width: 300px;
+    height: 350px;
+  }
+  #tafis_about_page .tafis--frame .frame-content {
+    margin-left: 0;
+  }
+  #tafis_about_page .tafis--frame h1 {
+    display: block;
+  }
+  #tafis_about_page .tafis--frame.reverse {
+    background-position: center 5%;
+  }
+  #tafis_about_page .tafis--frame.reverse .icon {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #tafis_about_page .tafis--frame.reverse .frame-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #tafis_about_page .tafis--buttons {
+    font-size: inherit;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #tafis_about_page .tafis--frames-images {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #tafis_about_page .tafis--images {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #tafis_about_page .tafis--frame {
+    margin: 0 4rem 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-position: left;
+  }
+  #tafis_about_page .tafis--frame .frame-content {
+    margin-left: 4%;
+    min-width: 55%;
+  }
+  #tafis_about_page .tafis--frame.reverse {
+    background-image: url(../../img/about-us-gradient-clear-right.png);
+    background-position: right;
+  }
+  #tafis_about_page .tafis--frame.reverse .icon {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  #tafis_about_page .tafis--frame.reverse .frame-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: 0;
+    margin-right: 4%;
+  }
+  #tafis_about_page .tafis--frame .icon {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#vert_fs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#vert_fs > div {
+  border: 1px solid green;
+}
+
+#fs_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fs_images .frame_img {
+  display: none;
+}
+
+#fs_images .frame_img.active {
+  display: block;
+  border: 1px dashed #999;
+}
+
+#vertical_filmstrip {
+  border: 3px solid red;
+  padding: 2rem;
+  width: 50rem;
+  margin: 1rem 7rem;
+}
+
+#vertical_filmstrip .slick-slide {
+  background-color: wheat;
+  height: 20rem;
+}
+
+#vertical_filmstrip .slick-center {
+  border: 2px dashed blue;
+}
+
+#vertical_filmstrip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#vertical_filmstrip .vert-nav-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#vertical_filmstrip .vert-nav-dots li.slick-active button {
+  background-color: red;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 300px) {
+  #vert_fs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #vertical_filmstrip {
+    width: 80%;
+    margin: 0;
+  }
+}
+
+body {
+  background-color: #ececec;
+}
+
+.barbara {
+  color: green;
+  font-size: 1em;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 300px) {
+  #actamofis01 {
+    width: 100%;
+    padding: 0;
+  }
+  #actamofis01 .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.1);
+  }
+  #actamofis01 .tabs {
+    display: none;
+  }
+  #actamofis01 .tab {
+    float: left;
+    /* Style the buttons inside the tab */
+  }
+  #actamofis01 .tab button {
+    display: block;
+    background-color: inherit;
+    padding: 1.4rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #054877;
+    /* Change background color of buttons on hover */
+    /* Create an active/current "tab button" class */
+  }
+  #actamofis01 .tab button:hover {
+    background-color: #ddd;
+  }
+  #actamofis01 .tab button.active {
+    background-color: #c6e5f7;
+  }
+  #actamofis01 .tablinks {
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  #actamofis01 .tablinks.mobile {
+    background-color: #013b65;
+    color: #ffffff;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 1rem 1.4rem;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  #actamofis01 .tablinks.mobile span.closed {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  #actamofis01 .tablinks.mobile span.open {
+    display: none;
+  }
+  #actamofis01 .tablinks.mobile.active {
+    background-color: #298dd3;
+  }
+  #actamofis01 .tablinks.mobile.active span.closed {
+    display: none;
+  }
+  #actamofis01 .tablinks.mobile.active span.open {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  #actamofis01 .tabcontent {
+    display: none;
+    border-left: none;
+    background-color: #fff;
+  }
+  #actamofis01 .tabcontent.active {
+    display: block;
+  }
+  #actamofis01 .itemC {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #actamofis01 .itemC h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 0;
+  }
+  #actamofis01 .itemC p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 0em;
+    margin-bottom: 0;
+    font-style: italic;
+  }
+  #actamofis01 .itemC .badge {
+    padding: 0 2em;
+    margin-bottom: 10px;
+  }
+  #actamofis01 .itemC .member-photo {
+    width: 100%;
+    padding-top: 100%;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  #actamofis01 .owl-carousel {
+    padding-bottom: 12px;
+  }
+  #actamofis01 .owl-theme .owl-dots .owl-dot span {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5px;
+    background: #298dd3 !important;
+  }
+  #actamofis01 .owl-theme .owl-dots .owl-dot.active span {
+    background: #013a67 !important;
+  }
+  #member010 .member-photo,
+  #member010_modal .member-photo {
+    background-image: url(../../img/ppl/tom.jpg);
+  }
+  #member020 .member-photo,
+  #member020_modal .member-photo {
+    background-image: url(../../img/ppl/david.jpg);
+  }
+  #member030 .member-photo,
+  #member030_modal .member-photo {
+    background-image: url(../../img/ppl/rodrigo.jpg);
+  }
+  #member040 .member-photo,
+  #member040_modal .member-photo {
+    background-image: url(../../img/ppl/tammy.jpg);
+  }
+  #member050 .member-photo,
+  #member050_modal .member-photo {
+    background-image: url(../../img/ppl/matt.jpg);
+  }
+  #member060 .member-photo,
+  #member060_modal .member-photo {
+    background-image: url(../../img/ppl/al.jpg);
+  }
+  #member070 .member-photo,
+  #member070_modal .member-photo {
+    background-image: url(../../img/ppl/colleen.jpg);
+  }
+  #member080 .member-photo,
+  #member080_modal .member-photo {
+    background-image: url(../../img/ppl/ainsley.jpg);
+  }
+  #member090 .member-photo,
+  #member090_modal .member-photo {
+    background-image: url(../../img/ppl/nick.jpg);
+  }
+  #member100 .member-photo,
+  #member100_modal .member-photo {
+    background-image: url(../../img/ppl/katie.jpg);
+  }
+  #member110 .member-photo,
+  #member110_modal .member-photo {
+    background-image: url(../../img/ppl/todd.jpg);
+  }
+  #member120 .member-photo,
+  #member120_modal .member-photo {
+    background-image: url(../../img/ppl/ella.jpg);
+  }
+  #member130 .member-photo,
+  #member130_modal .member-photo {
+    background-image: url(../../img/ppl/hermina.jpg);
+  }
+  #member140 .member-photo,
+  #member140_modal .member-photo {
+    background-image: url(../../img/ppl/newton.jpg);
+  }
+  #member150 .member-photo,
+  #member150_modal .member-photo {
+    background-image: url(../../img/ppl/brad.jpg);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #actamofis01 {
+    /* Style the tab content */
+  }
+  #actamofis01 .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #actamofis01 .tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #actamofis01 .tab span, #actamofis01 .tab button {
+    font-weight: 700;
+  }
+  #actamofis01 .tab span {
+    font-weight: 900;
+    margin: 0 1em;
+    font-family: "Open Sans", sans-serif;
+  }
+  #actamofis01 .tab button {
+    width: auto;
+    font-size: 16px;
+    padding: 7px 0 5px;
+    color: #054877;
+  }
+  #actamofis01 .tab button.active {
+    background-color: transparent;
+    color: #116fb0;
+    border-bottom: 2px solid #308dca;
+  }
+  #actamofis01 .pages {
+    width: 100%;
+  }
+  #actamofis01 .tablinks.mobile {
+    display: none;
+  }
+  #actamofis01 .exowlbox {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 1em auto;
+    opacity: 1;
+  }
+  #actamofis01 .exowlbox:after {
+    content: "";
+    -ms-flex-preferred-size: 23%;
+        flex-basis: 23%;
+  }
+  #actamofis01 .itemC {
+    width: 23%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 3em;
+    position: relative;
+  }
+  #actamofis01 .itemC h1, #actamofis01 .itemC p {
+    font-size: 20px;
+  }
+  #actamofis01 .itemC img {
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  #actamofis01 .itemC .badge {
+    padding: 0;
+  }
+  #actamofis01 .itemC .cross {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  #actamofis01 .itemC .cross div {
+    height: 30px;
+    position: relative;
+    background-color: #cccccc;
+    border-radius: 12%;
+    padding: 1%;
+  }
+  #actamofis01 .itemC .cross div:before {
+    left: 50%;
+    width: 20%;
+    margin-left: -10%;
+    height: 60%;
+    top: 20%;
+  }
+  #actamofis01 .itemC .cross div:after {
+    top: 50%;
+    height: 20%;
+    margin-top: -10%;
+    width: 60%;
+    left: 20%;
+  }
+  #actamofis01 .itemC .cross div:before, #actamofis01 .itemC .cross div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: #ffffff;
+  }
+  #actamofis01 .tabcontent {
+    display: none;
+    background-color: transparent;
+  }
+  #actamofis01 .tabcontent.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+#actamofis01 {
+  /* The Modal (background) */
+  /* Modal Content */
+  /* Add Animation */
+  /* The Close Button */
+}
+
+#actamofis01 .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 15;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#actamofis01 .modal .cross {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+}
+
+#actamofis01 .modal .cross div {
+  height: 30px;
+  position: relative;
+  background-color: #cccccc;
+  border-radius: 12%;
+  padding: 1%;
+}
+
+#actamofis01 .modal .cross div:before {
+  left: 50%;
+  width: 20%;
+  margin-left: -10%;
+  height: 60%;
+  top: 20%;
+}
+
+#actamofis01 .modal .cross div:after {
+  top: 50%;
+  height: 20%;
+  margin-top: -10%;
+  width: 60%;
+  left: 20%;
+}
+
+#actamofis01 .modal .cross div:before, #actamofis01 .modal .cross div:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#actamofis01 .modal-headshot {
+  position: relative;
+}
+
+#actamofis01 .modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 95%;
+  max-width: 1350px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+#actamofis01 .close {
+  color: #333333;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#actamofis01 .close:hover,
+#actamofis01 .close:focus {
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#actamofis01 .modal-header {
+  padding: 2px 16px;
+  line-height: 2.1em;
+}
+
+#actamofis01 .modal-body {
+  padding: 2px 16px;
+  line-height: 1.5;
+}
+
+#actamofis01 .modal-footer {
+  padding: 2px 16px;
+  color: white;
+}
+
+@media screen and (min-width: 300px) {
+  #actamofis01 .modal .member-photo {
+    -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    height: 95%;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  #actamofis01 .modal-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 97vh;
+    overflow-y: auto;
+  }
+  #actamofis01 .modal-headshot {
+    width: 100%;
+  }
+  #actamofis01 .modal-headshot-background {
+    background: #212531;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #054877), color-stop(50%, transparent));
+    background: linear-gradient(to right bottom, #054877 50%, transparent 50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 100%;
+    width: 100%;
+  }
+  #actamofis01 .modal-headshot-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  #actamofis01 .modal-header {
+    margin: 20px 0 5px;
+  }
+  #actamofis01 .modal-header h2, #actamofis01 .modal-header h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  #actamofis01 .modal-header h2 {
+    font-weight: 700;
+  }
+  #actamofis01 .modal-header h3 {
+    font-weight: 500;
+    font-style: italic;
+  }
+  #actamofis01 .modal-body p {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  #actamofis01 .modal-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: auto;
+    max-height: 95vh;
+    overflow-y: unset;
+  }
+  #actamofis01 .modal-headshot {
+    max-width: 35%;
+  }
+  #actamofis01 .modal-description {
+    width: 100%;
+    padding-right: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #actamofis01 .modal-header {
+    line-height: 2.6em;
+  }
+  #actamofis01 .modal-header h2, #actamofis01 .modal-header h3 {
+    font-size: 34px;
+  }
+  #actamofis01 .modal-body {
+    max-height: 59vh;
+    margin-bottom: 5%;
+    overflow-y: auto;
+  }
+  #actamofis01 .modal-body p {
+    font-size: 20px;
+  }
+  #actamofis01 .modal .member-photo {
+    height: 90%;
+    width: 85%;
+  }
+  #actamofis01 .modal-headshot-background {
+    padding-top: 130%;
+  }
+  #actamofis01 .modal-headshot-foreground {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #actamofis01 .modal-body {
+    max-height: 450px;
+  }
+}
+
+/*# sourceMappingURL=all.css.map */

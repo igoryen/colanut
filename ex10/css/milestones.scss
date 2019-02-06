@@ -6,7 +6,7 @@
 	// box-shadow: 1px 1px 1px #333;
 	display: flex;
     flex-direction: column;
-    background-color: $clr-bkg-card;
+    background-color: $clr_0007;
 }
 
 // one milestone card; it includes the graphic and the details
@@ -37,7 +37,7 @@
 	.n_stanley {
 		position: relative;
 		width: 0.5rem;
-		background-color: $clr-milestone-pending;
+		background-color: $clr_0028;
 		opacity: .5;
 		margin: 0 2rem;
 	    display: flex;
@@ -57,7 +57,7 @@
 				$marker_size: 4rem;
 				// position: absolute;
 				// bottom: 0;
-				background-color: $clr-milestone-pending;
+				background-color: $clr_0028;
 				
 
 				width: $marker_size;
@@ -74,6 +74,41 @@
 
 		
 	}
+
+	// the details part of one milestone card
+	.n_leonard {
+		// border: 1px dashed blue;
+		position: relative;
+		width: 100%;
+		padding-left: 5rem;
+		display: flex;
+	    align-items: center;
+
+		
+	}
+
+	.n_manuel {
+		// border: 1px solid $clr_0027;
+		
+
+		// background-color: #fff;
+
+		// v1
+		// position: absolute;	
+		// top: 3rem;
+		// left: .5rem;
+		
+		// v2
+		// margin-top: 2rem;
+		// padding-top: 1rem;
+	    margin-left: 0.5rem;
+
+		.report {
+			font-weight: 900;
+			color: $clr_0028;
+		}
+	}
+
 	&.first {
 		// margin-top: -1rem;
 		.n_stanley {
@@ -87,19 +122,24 @@
 
 	&.reached {
 		.n_stanley {
-			background-color: $clr-milestone-reached;
+			background-color: $clr_0027;
 	    	.n_wendy {
 	    		span {
-	    			background-color: $clr-milestone-reached;
+	    			background-color: $clr_0027;
 	    		}
 	    	}
+		}
+		.n_manuel {
+			.report {
+				color: $clr_0029;
+			}
 		}
 	}
 	    	
 }
 
 .n_stanley, .n_leonard {
-	// border: 1px solid $clr-milestone-pending;
+	// border: 1px solid $clr_0028;
 }
 
 
@@ -111,35 +151,3 @@
 	
 }
 
-// the details part of one milestone card
-.n_leonard {
-	// border: 1px dashed blue;
-	position: relative;
-	width: 100%;
-	padding-left: 5rem;
-	display: flex;
-    align-items: center;
-
-	
-}
-
-.n_manuel {
-	// border: 1px solid $clr-milestone-reached;
-	
-
-	// background-color: #fff;
-
-	// v1
-	// position: absolute;	
-	// top: 3rem;
-	// left: .5rem;
-	
-	// v2
-	// margin-top: 2rem;
-	// padding-top: 1rem;
-    margin-left: 0.5rem;
-
-	.report {
-		font-weight: 900;
-	}
-}

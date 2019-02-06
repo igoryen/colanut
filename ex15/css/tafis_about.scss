@@ -1,0 +1,339 @@
+@import '_variables';
+
+	
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+		
+		#tafis_about_page {
+		    .tafis-container {
+		    	// border: 1px dashed brown;
+		        display: flex;
+		        flex-direction: column;
+		        align-items: center;
+		        padding-bottom: 2rem;        
+			
+			}
+
+			//--------------
+			.tafis--buttons, .tafis--frames-images {
+	        	display: none;
+	        }
+
+	        
+	        .tafis {
+		        // border: 1px solid red;
+		        // width: 60rem; 
+
+		    }
+
+		    .owl-item {
+		    	transition-duration: 5s;
+		    }
+
+
+	        .tafis--images {
+	        	display: flex;
+	        	flex-direction: column;
+	        	justify-content: center;
+	        }
+
+	        .tafis--images-wrapper {
+	            display: flex;
+	            flex-direction: column;
+	            justify-content: flex-end;
+	            position: relative;
+	            width: 27rem;            
+
+	            &:after {
+	            	content: "";
+	            	width: 100%;
+	            	height: 3px;
+	            	box-shadow: #333 1px 1px 8px 10px;
+	            	position: absolute;
+	            	bottom: 0px;
+            	    left: -5px;
+            	    border-radius: 50%;
+            	    background-color: #333;
+
+
+	            }
+	        }
+
+	        .tafis--image {
+	            display: none;
+				
+				background-size: contain;
+				background-repeat: no-repeat;
+				width: 100%;
+				padding-bottom: 43rem;
+
+
+
+	            &.active {
+	                display: flex;
+	                // border: 3px solid slateblue;
+	                z-index: 1;
+	                // max-width: 100px;
+	            }
+	            
+	        }
+
+
+
+			//-------------
+
+			.owl-carousel {
+				// background-color: #fff;
+				// padding-bottom: 1rem;
+				// padding: 0 4rem 1rem 1rem;
+				// box-shadow: #ccc 1px 1px 14px 2px;
+				// margin-right: 5rem;
+				
+				.owl-stage-outer {
+					padding-bottom: 1em;
+				}
+				.owl-stage {
+					display: flex;
+					// padding: 3em 0;
+					// padding: 1em;
+				}
+			}
+			.owl-item {
+				// border: 3px solid red;
+				// background-color: #ffffff;
+				// box-shadow: #ccc 1px 1px 8px 2px;
+			}
+
+			.tafis--frame {
+				display: flex;
+				
+				align-items: center;
+				// padding: 2em 1em;
+				padding: 0em 1em;
+				background-repeat: no-repeat;
+				background-position: left;
+				background-image: url(../../img/about-us-gradient-clear-left.png);
+
+	            h1 {
+		    		font-size: 26px;
+	                font-family: $cnx_font_0001;
+	                text-transform: uppercase;
+	                font-weight: 700;
+	                line-height: 1.4em;	                
+	            }
+	            p, li {
+	                font-family: $cnx_font_0002;
+	                // font-size: 1.5rem;
+	                font-size: 20px;
+	                line-height: 1.4em;
+	            }
+	            li {
+	            	list-style: none;
+	            	margin-top: 1rem;
+	            	i {
+	            		color: $cnx_clr_0008;
+	            		padding-right: 1rem;
+	            		margin-left: -2.6rem;
+	            		font-size: 25px;
+	            	}
+	            }
+	            a {
+	            	font-family: $cnx_font_0001;
+	            	color: $cnx_clr_0002;
+	            	text-decoration:none;
+	            	font-weight: 700;
+	            	&:hover {
+	            		text-decoration: underline;
+	            	}
+	            }
+
+				.icon {
+					background-size: contain;
+					background-repeat: no-repeat;
+					min-width: 40%;
+				}
+				
+	
+				
+			}
+
+			.frame-content{
+				width: 100%;
+				// border: 1px dashed red;
+				box-shadow: rgba(0,0,0,0.05) 3px 3px 12px 6px;
+				background-color: #fff;
+				padding: 2em 3em;
+			}
+
+		}
+
+		#tafis_about_frame_01 {
+			.icon {
+				background-image: url(../../img/about-us-01.png);			
+			}
+			
+		}
+		#tafis_about_frame_02 {
+			.icon {
+				background-image: url(../../img/about-us-02.png);			
+			}
+		}
+		#tafis_about_frame_03 {
+			.icon {
+				background-image: url(../../img/about-us-03.png);			
+			}
+		}
+    }
+
+    @media screen and (min-width: 650px) {
+    	#tafis_about_page {
+	    	.tafis-container {
+	            
+	        }
+
+	        @include tafis_tabs;
+    
+            .tafis--frames-images {
+            	display: flex;
+            	width: 100%;
+            	margin-top: 3rem;
+            	// margin: 3rem 3em 0;
+            	// flex-direction: row;
+            	flex-direction: column;
+
+            	justify-content: center;
+            }
+
+            .tafis--images {
+            	align-items: center;
+            	margin-top: 2em;
+            }
+
+
+
+            //----------------------
+    		.owl-theme {
+                .owl-dots {
+                    .owl-dot {
+                        span {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            margin: 5px 2px;
+                            background: $cnx_clr_0004 !important;
+                        }
+                    }
+                    .owl-dot.active {
+                        span {
+                            background: $cnx_clr_0007 !important;
+                        }
+                    }
+                }
+            }
+    		//----------------------
+
+	        //--------------
+			.tafis_area {
+				// width: 100%;
+				// padding: 0 4em;
+				// margin: 0 2em;
+			}
+			.tafis--frame {
+				background-position: center 5%;
+				flex-direction: column;
+                .icon {
+                	width: 300px;
+                	height: 350px;
+                }
+                .frame-content {
+                	margin-left: 0;
+                }
+                h1 {
+                    display: block;
+                }
+
+                &.reverse {
+                	background-position: center 5%;
+                	.icon {
+                		order: 1;
+                	}
+                	.frame-content {
+                		order: 2;
+                	}
+                }
+			}
+	    }        
+    }
+
+
+    @media screen and (min-width: 800px) {
+    	#tafis_about_page {
+    		.tafis-container {
+    			
+    		}
+    		.tafis--buttons {
+    			font-size: inherit;
+    			align-items: center;
+    		}
+    		.tafis--frames-images {
+    			flex-direction: row;
+    		}
+    		.tafis--images {
+    			margin-top: 0;
+    		}
+    		.tafis_area {
+				// width: 60%;
+				// padding: 0 2em;
+			}
+
+
+			.tafis--frame {
+
+			}
+    	}
+		
+    }
+    @media screen and (min-width: 1200px) {
+		#tafis_about_page {
+			.tafis-container {
+				
+			}
+
+			.tafis--frame {
+				margin: 0 4rem 0;
+				flex-direction: row;
+				background-position: left;
+
+				.frame-content {
+					margin-left: 4%;
+					min-width: 55%;
+				}
+
+				&.reverse {
+					background-image: url(../../img/about-us-gradient-clear-right.png);
+					background-position: right;
+					.icon { order: 2; }
+
+					.frame-content { 
+						order: 1;
+						margin-left: 0;
+						margin-right: 4%; 
+					};
+				}
+				.icon {
+					width: 600px;
+					height: 600px;
+					// border: 1px dashed green;
+				}
+			}
+
+			.tafis_area {
+				// width: 72%;
+			}
+		}
+    }

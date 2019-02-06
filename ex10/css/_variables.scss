@@ -1,38 +1,137 @@
+//========================
+// COLOR NAMES
+// Ordered lighter to darker
+
+// Grays: 
+$concrete: #f2f2f2;
 $mercury: #e7e7e7;
-
-
+$alto: #d9d9d9;
+$silver: #bfbfbf;
+$silver_chalice: #a6a6a6;
 $dusty_gray: #999999;
 $gray: #808080;
 $dove_gray: #666666;
 $tundora: #4d4d4d;
-$alto: #d9d9d9;
+$mine_shaft: #333333;
 
-$concrete: #f2f2f2;
+// Greens
+$limegreen: #32cd32;
+$gossip: #bcfbbb;
+$yellow_green: #b0e57c;
 
 
-$clr-bkg-body: $concrete;
+// Reds
+$cornflower_lilac: #ffaeae;
+$linen: #f9e6dc;
+$linen_rgb: rgba(249, 230, 220, 0);
+$linen_rgb5: rgba(249, 230, 220, 0.5);
+$albescent_white: #f7ddd4;
 
-$clr-box-title: $gray;
+$sunglo: #e1757b;
+$givry: #f8d3bf;
+$crimson: #ed1221;
 
-$clr-bkg-card: #ffffff;
-$clr-card-shadow: $alto;
 
-$clr-milestone-reached: $tundora;
-$clr-milestone-pending: $dusty_gray;
+// Blues
+$picton_blue: #56baec;
+
+//========================
+// COLOR VARIABLES
+
+$clr_0001: $concrete; 	// the background color
+$clr_0002: $dusty_gray; // the color of the box title
+$clr_0003: $alto; 		// the color of the shadow of a card
+$clr_0004: $picton_blue; 		// color of the bottom border of column 1
+$clr_0005: $yellow_green; 		// color of the bottom border of column 2
+$clr_0006: $cornflower_lilac;	// color of the bottom border of column 3
+$clr_0007: #ffffff; 	// the color of the background of a card
+
+// FILE STATUS
+$clr_0008: $tundora; 	// color of the area of the doughnut diagram that corresponds to the completed percentage
+$clr_0009: $dove_gray; 	// color of the area of the doughnut diagram that corresponds to the still incomplete percentage
+// $clr_0010: $limegreen;
+$clr_0010: $gray; 		// color of the DONE file status 
+
+
+// FILE DOCUMENTS CHECKBOXES
+$clr_0011: $concrete; 		// the color of the background of the Merge Order button
+$clr_0012: $tundora; 		// the color of the backgrouund of the Merge Order button when it is checked
+
+$clr_0013: $linen; 			// the color of the background of a card when it is due/unresolved
+$clr_0014: $concrete; 		// the color of the background of a card when it is done/resolved
+$clr_0015: $crimson; 		// the color of the label (status icon) of the card that is DUE/UNRESOLVED 
+$clr_0016: $limegreen; 		// the color of the status icon of the card that is Done/Resolved
+$clr_0017: $silver_chalice; // the color of the text in a card that is Done/Resolved
+
+
+// MODAL
+// color of the close-modal button
+$clr_0018: $gray; 			// the color of the "Close Modal" button
+$clr_0019: $dove_gray; 		// the color of the background of the modal's header
+$clr_0020: $dove_gray; 		// the color of the background of the modal's footer
+$clr_0021: #fff; 			// the color of the text in the modal's header
+$clr_0022: $gossip; 		// the color of the Modal's Cancel button
+
+
+// linear vertical gradient: light in middle, dark on outside.
+$clr_0023: linear-gradient(359deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 67%, rgba(237,237,237,1) 100%);
+// darker than bkg_0001
+$clr_0024: linear-gradient(359deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 63%, rgba(214,214,214,1) 100%);
+
+
+// section of a card, a subsection inside a card
+$clr_0025: $alto; 		// the color of the border of a card's subsection
+
+
+$clr_0026: $mine_shaft; // the color of the background of column title
+
+
+
+
+$clr_0027: $tundora; 	// the color of the milestone that has already been reached
+$clr_0028: $dusty_gray; // the color of the milestone that has NOT been reached yet, yet pending
+$clr_0029: $mine_shaft;
 
 // color of the file info title
-$clr-file-info-title: $dove_gray;
-$clr-file-info-value: $dusty_gray;
-$clr-mortgage-amount: $tundora;
+$clr_0030: $dove_gray; 	// the color of the title in the File Information
+$clr_0031: $dusty_gray; // the color of value of the File Information
+$clr_0032: $tundora; 	// the color of the Mortgage Amount value
 
 
 // file participants
-$clr-file-participant-name: $tundora;
+$clr_0033: $tundora; 	// the color of a File Participant's name
 
 
 // file notes
-// the color of the background of the file-notes container
-$clr-bkg-notes-container: #f2f2f2;
-$clr-note-reply-button: $dove_gray;
-$clr-note-recipients: $dusty_gray;
-$clr-note-date-time: $dusty_gray;
+// the color of the background of the file_notes container
+$clr_0034: $concrete; 	// the color of the background of the Notes container
+$clr_0035: $dove_gray; 	// the color of the Note Reply button
+$clr_0036: $dusty_gray; // the color of the Note Recipients
+$clr_0037: $dusty_gray; // the color of the Date & Time stamp of the Note
+
+
+// file documents
+
+$clr_0038: $dove_gray; 	// the color of a Document's details
+$clr_0039: $dove_gray; 	// the color of the Merge Order label in the File Documents' section
+$clr_0040: $alto; 		// the color of the hover of the Merge Order label 
+
+
+// BUTTONS
+// colors
+// destructive button colors
+$clr_0041: $dove_gray; 	// the color of buttons that trigger destructive action
+
+$clr_0042: $sunglo; // File Documents > card > icon
+$clr_0043: $albescent_white; 	// the color of the background of a card when it is due/unresolved on HOVER
+$clr_0044: $mercury; 		// the color of the background of a card when it is done/resolved on HOVER
+// $clr_0045: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.46) 30%, rgba(255,255,255,1) 75%);  // white to transparent gradient used to hide part of File Notes when closed
+$clr_0045: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.11) 2%, rgba(255,255,255,1) 97%); /* w3c */
+
+// border radius for elements
+// for buttons
+$button_border_radius: 0.4rem;
+// for cards
+$section_border_radius: 0.4rem;
+
+$dur_0001: 0.3s;

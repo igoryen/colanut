@@ -1,0 +1,50 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                 ATTENTION:
+   THIS IS NOT THE CSS YOU ARE LOOKING FOR!
+      IT WAS GENERATED FROM A SASS FILE 
+       WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+selector ul li.menu-item:nth-last-child(2) {
+    /*color: red;*/
+    margin-right: 2em;
+
+}
+
+
+
+/* the REQUEST TOUR CTA */
+selector .menu-item:last-child {
+    /*background-color: #054877;*/
+    transition: 0.3s ease;
+    /*max-width: 70%;*/
+    border: 1px solid #054877;
+}
+
+selector .menu-item:last-child a {
+    font-size: 18px;
+    /*color: #ffffff !important;*/
+    /*color: #054877;*/
+}
+
+selector .menu-item:last-child:hover {
+    /*background-color: #116fb0;*/
+    border: 1px solid #116fb0;
+}
+
+
+
+
+body[data-elementor-device-mode="mobile"] .menu-item:last-child {
+    border: none !important;
+}
+body[data-elementor-device-mode="mobile"] .menu-item:last-child:hover {
+    border: none !important;
+}
+
+
+
+selector .elementor-menu-toggle .elementor-active {
+    border: 3px solid red;
+}

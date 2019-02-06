@@ -1,0 +1,119 @@
+@import '_variables';
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    *, *:before, *:after { box-sizing: border-box; }
+
+    body {
+        // display: flex;
+        // justify-content: flex-end;
+    }
+   
+
+#vert_fs {
+    display: flex;
+    
+    > div {
+        border: 1px solid green;
+    }
+}
+
+#fs_images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .frame_img {
+        display: none;
+        &.active {
+            display: block;
+            border: 1px dashed #999;
+        }
+    }
+}
+
+#vertical_filmstrip {
+    border: 3px solid red;
+    padding: 2rem;
+    width: 50rem;
+    margin: 1rem 7rem;
+
+    .slick-slide {
+        background-color: wheat;
+        height: 20rem;
+    }
+    .slick-center {
+        border: 2px dashed blue;
+    }
+}
+
+// #vertical_filmstrip_nav {
+#vertical_filmstrip {
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    // .slick-dots {
+    //     position: inherit;
+    //     display: flex !important;
+    // }
+    
+    .vert-nav-dots {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        li {
+            &.slick-active {
+                button {
+                    background-color: red;
+                    border: 1px solid red;
+                }
+            }
+        }
+    }
+}
+
+
+
+//==================
+
+// tafis
+
+
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+@media screen and (min-width: 300px) {
+    #vert_fs {
+        flex-direction: column;
+    }
+    #vertical_filmstrip {
+        width: 80%;
+        margin: 0;
+    }
+}

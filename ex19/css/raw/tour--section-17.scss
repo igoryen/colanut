@@ -1,0 +1,52 @@
+/* !!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS FILE WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!*/
+#tour_section-17 {
+    .elementor-testimonial__footer {
+        margin-top: 20px;
+    }
+    .elementor-testimonial__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .elementor-testimonial__cite {
+        order: 1;
+        margin-top: 0;
+    }
+    .elementor-testimonial__text {
+        order: 2;
+        margin-top: 25px;
+    }
+    .elementor-testimonial__title {
+        display: none;
+    }
+    ul {
+        list-style: none;
+        &.features-list {
+            padding-left: 0px;
+            li {
+                text-align: left;
+                margin-bottom: 10px;
+                i {
+                    
+                    color: #298dd3;
+                    padding-right: 10px;
+                }
+            }
+        } 
+    }
+    .swiper-pagination-bullet {
+        background-color: #308dca;
+        opacity: 1;
+        width: 1em !important;
+        height: 1em !important;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #47aff6;
+    }
+
+}
+
+
+
+

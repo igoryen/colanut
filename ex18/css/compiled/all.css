@@ -1,0 +1,320 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* =14px */
+h1 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+/* =24px */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-container {
+  width: 80%;
+  max-width: 100rem;
+}
+
+.admin-toc ol.level1 {
+  counter-reset: mega-step, mini-step;
+  list-style-type: none;
+}
+
+.admin-toc ol.level1 > li {
+  margin: 20px;
+  background: white;
+  counter-increment: mega-step;
+  padding: 5px;
+}
+
+.admin-toc ol.level1 > li:before {
+  content: counter(mega-step, upper-roman);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem 0;
+  background: #999;
+  width: 4rem;
+  text-align: center;
+  color: white;
+  float: left;
+  text-shadow: 1px 1px 10px #737373;
+  margin-right: 1rem;
+  font-size: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-toc ol.level1 > li h2 {
+  font-weight: 700;
+  color: #999;
+  font-size: 2rem;
+  margin: 7px 0;
+}
+
+.admin-toc ol.level2 li {
+  padding: 0 5px;
+}
+
+.admin-toc ol.level2 h3 {
+  color: #000;
+  font-weight: 500;
+  margin: 1px 0 0.5rem;
+}
+
+.admin-toc ol.level3 {
+  margin-bottom: 1.2rem;
+}
+
+.admin-toc ol.level3 li {
+  color: #999;
+}
+
+.admin-toc ol li a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.admin-toc ol li a:hover h1, .admin-toc ol li a:hover h2, .admin-toc ol li a:hover h3 {
+  background-color: #f2f2f2;
+  text-decoration: underline;
+}
+
+.admin-body h1, .admin-body h2, .admin-body h3 {
+  margin-top: 6rem;
+}
+
+.admin-body h2 {
+  color: #808080;
+}
+
+.admin-body h3 {
+  color: navy;
+  font-weight: 700;
+  border-top: 2px dashed #ccc;
+  padding-top: 2rem;
+}
+
+.admin-body h4 {
+  font-style: italic;
+}
+
+.admin-body h1 {
+  padding-top: 3rem;
+  border-top: 4px solid #ccc;
+}
+
+.admin-body h1 .system {
+  color: royalblue;
+}
+
+.admin-body h2 {
+  padding-top: 3rem;
+  border-top: 2px dashed #ccc;
+}
+
+.admin-body h2 .system {
+  color: springgreen;
+}
+
+.admin-body ul li p {
+  margin: 0.5rem 0;
+}
+
+hr {
+  border: 1px dashed mediumblue;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.inline {
+  display: inline;
+}
+
+p {
+  line-height: 2rem;
+}
+
+p img:not(.inline) {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 7px 4px 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 7px 4px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.system {
+  color: coral;
+}
+
+.admin-table-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-table-a-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-table-a-section > div:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.admin-table-a-section-column {
+  padding: 0 1rem 1rem;
+  width: 100%;
+}
+
+.admin-table-a-section-column h4 {
+  font-style: inherit;
+  text-transform: uppercase;
+}
+
+.admin-table-a-section-column > ul {
+  padding-left: 3rem;
+}
+
+.admin-table-a-section-column > ul > li {
+  padding-bottom: 1rem;
+}
+
+.admin-table-a-section-column > ul > li > ul {
+  padding-left: 1rem;
+}
+
+.admin-table-a-section-column > ul > li > ul > li {
+  padding-top: 0.5rem;
+}
+
+.admin-table-a-section-column > ul > li > ul > li > ul {
+  padding-left: 1rem;
+}
+
+.admin-table-a-section-column > ul > li > ul > li > ul > li {
+  padding-top: 1rem;
+}
+
+.admin-table-a-section-column-heading {
+  font-weight: 700;
+  text-align: center;
+  background-color: #ccc;
+  line-height: 3rem;
+  margin: 0 -0.9rem;
+}
+
+.admin-table-a-section-column-body h3 {
+  text-align: center;
+  font-style: inherit;
+  margin: initial;
+  border-top: transparent;
+}
+
+.admin-table-a-section-column-body ul li {
+  padding-bottom: 1rem;
+}
+
+.admin-table-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.admin-table-b div:nth-child(2n+3) {
+  background-color: #f2f2f2;
+}
+
+.admin-table-b-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.admin-table-b-row p {
+  width: 100%;
+}
+
+.admin-table-b-row p:first-child {
+  width: 30%;
+  padding: 0 1rem;
+}
+
+.admin-table-b-row .heading {
+  font-weight: 700;
+  background-color: #ccc;
+}
+
+.admin-horiz-descr-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1rem 1rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.admin-horiz-descr-img p:first-child {
+  margin-right: 1rem;
+  max-width: 40%;
+}
+
+.admin-horiz-descr-img p:last-child {
+  width: 100%;
+}
+
+/*# sourceMappingURL=all.css.map */

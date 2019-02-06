@@ -1,0 +1,116 @@
+@import '_variables';
+
+
+.merge-order-controls {
+
+    align-items: center;
+    background-color: $clr_0011;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    height: 4rem;
+    justify-content: space-around;
+    min-width: 4rem;
+    padding: 0 0.7rem;
+    position: relative;
+    user-select: none;
+    border-radius: 0.5rem;
+
+    span {
+        font-size: 2rem;
+    }
+    
+        
+    &:hover {
+        background-color: $clr_0040;
+        // border-style: solid;
+        // border-color: blue;
+
+        /* On mouse-over, add a grey background color */
+        input ~ .checkmark {
+            // background-color: #ccc;
+        }
+
+        /* When the checkbox is checked, add a blue background */
+        
+    }
+    input {
+        // hide the browser's default checkbox
+        position: absolute;
+        opacity: 0;
+        // left: 0;
+        cursor: pointer;
+
+        &:checked {
+            ~ .checkmark {
+                background-color: $clr_0012;
+                // Show the checkmark when checked
+                &:after {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .a {
+        // border: 1px solid green;
+        // width: auto;
+        display: flex;
+        position: relative;
+        $size: 1.7rem;
+        margin-right: 0.5rem;
+
+        /* Create a custom checkbox */
+        .checkmark {
+            // border: 1px solid red;
+            // position: absolute;
+            // top: 0;
+            // left: 0;
+            // height: 25px;
+            // width: 25px;
+            background-color: #f2f2f2;
+            
+            min-width: $size;
+            height: $size;
+            border-radius: 2px;
+            border: 1px solid #b3b3b3;
+
+            
+            /* Style the checkmark/indicator */
+            &:after {
+                // checkmark, hidden when not checked
+                content: "";
+                position: absolute;
+                display: none;
+
+                left: $size/3;
+                top: $size / 7.5;
+                width: $size/3;
+                height: $size/1.5;
+
+                border: solid white;
+                border-width: 0 3px 3px 0;
+                
+                transform: rotate(45deg);
+            }
+
+
+            /* Create the checkmark/indicator (hidden when not checked) */
+            .checkmark:after {
+                
+            }
+        }
+    }
+    .b {
+        // border: 1px solid orange;
+        width: auto;   
+    }
+
+}
+.merge-order-label {
+    font-size: 1rem;
+    text-align: center;
+    color: $clr_0039;
+    max-width: 5.5rem;
+}

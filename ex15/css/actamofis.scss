@@ -1,0 +1,550 @@
+@import '_variables';
+
+*, *:before, *:after { box-sizing: border-box; }
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+
+        #actamofis01 {
+            width: 100%;
+            padding: 0;
+
+            .container {
+                flex-direction: column;
+                // border: 1px solid red;
+                // border: 3px solid green;
+                // width: 80rem;
+                // min-height: 25rem;
+                background-color: #fff;
+                // margin: 1rem 3rem;
+                box-shadow: 0px 0px 27px rgba(0,0,0,0.1);
+
+
+            }
+            .tabs {
+                display: none;
+            }
+
+            .tab {
+                float: left;
+                // border: 1px solid #ccc;
+                // background-color: #f1f1f1;
+                // width: 30%;
+                // height: 300px;
+
+                /* Style the buttons inside the tab */
+                button {
+                    display: block;
+                    background-color: inherit;
+                    
+                    // padding: 22px 16px;
+                    padding: 1.4rem;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    text-align: left;
+                    cursor: pointer;
+                    // transition: 0.3s;
+                    font-size: 17px;
+                    font-family: $cnx_font_0001;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 1.5rem;
+                    color: $cnx_clr_0002;
+
+                    /* Change background color of buttons on hover */
+                    &:hover {
+                        background-color: #ddd;
+                    }
+                    /* Create an active/current "tab button" class */
+                    &.active {
+                        // background-color: #ccc;
+                        background-color: $cnx_clr_0001;
+
+                    }
+
+                }
+            }
+            .tablinks {
+                transition: $cnx_transition_speed_0001; 
+                &.mobile {
+                    // display: block;
+                    // width: 100%;
+                    // text-align: left;
+                    // transition: 0.4s;
+                    // background-color: $cnx_clr_0010;
+                    // color: #fff;
+                    // font-family: $cnx_font_0001;
+                    // font-size: $cnx_font_size_0001;
+                    // font-weight: $cnx_font_weight_0001;
+                    // text-transform: uppercase;
+                    // padding: 1rem 1.4rem;
+                    // line-height: 1.5;
+                    @include accordion_tab_styles();
+
+                    span {
+                        // transition: 0.4s;
+                        &.closed {
+                            // transition: 0.4s;
+                            display: inline-block;
+                            margin-right: 2px;
+                        }
+                        &.open {
+                            // transition: 0.4s;
+                            display: none;
+                        }
+                    }
+
+                     // opacity: 0.0;
+                      // transform: scale(0.95) translate3d(0,100%,0);
+                      // transition: transform 400ms ease, opacity 400ms ease;
+
+                    &.active {
+                        // transition: all 0.4s ease-in-out;
+
+                        // opacity: 1.0;
+                        // transform: scale(1.0) translate3d(0,0,0);
+
+                        background-color: $cnx_clr_0009;
+                        span {
+                            &.closed {
+                                display: none;
+                            }
+                            &.open {
+                                display: inline-block;
+                                margin-right: 2px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .tabcontent {
+                // opacity: 0;
+                display: none;
+                // float: left;
+                // padding: 0px 12px;
+                // border: 3px solid blue;
+                // width: 70%;
+                border-left: none;
+                // height: 300px;
+
+                background-color: #fff;
+                // max-height: 0;
+                // transition: all 0.5s ease;
+                // transition: max-height 0.2s ease-out;
+                
+
+
+                // max-height: 0;
+                // // overflow: hidden;
+                // transition: max-height 0.2s ease-out;
+
+                &.active {
+                    // transition: .3s transform ease-in-out;
+                    // max-height: 1000px;
+                    // max-height: 500px;
+                    // transition: max-height 1s ease-in-out;
+                    // display: flex;
+                    display: block;
+                }
+
+                h1 {
+                    // display: none;
+                }
+            }
+            // tafis
+            .itemC {
+                // margin-top: 1rem;
+                // margin: 2rem 1rem 0;
+                // background-color: red;
+                // border: 3px solid red;
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    font-family: $cnx_font_0001;
+                    // text-transform: uppercase;
+                    font-size: 20px;
+                    font-weight: 650;
+                    margin-bottom: 0;
+                }
+                p {
+                    font-family: $cnx_font_0001;
+                    // font-size: 1.5rem;
+                    font-size: 20px;
+                    margin-top: 0em;
+                    margin-bottom: 0;
+                    font-style: italic;
+
+                }
+                img {
+                    // border: 1px dashed red;
+
+                }
+                .badge {
+                    padding: 0 2em;
+                    margin-bottom: 10px;
+                }
+
+                .member-photo {
+                    width: 100%;
+                    padding-top: 100%;
+                    background-position: center top;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+                }
+
+            
+            
+            }
+
+            
+
+            .owl-carousel {
+                padding-bottom: 12px;
+            }
+
+            .owl-theme {
+                .owl-dots {
+                    .owl-dot {
+                        span {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            margin: 5px;
+                            background: $cnx_clr_0009 !important;
+                        }
+                    }
+                    .owl-dot.active {
+                        span {
+                            background: $cnx_clr_0003 !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+        //--- MEMBER PHOTOS -------
+        #member010, 
+        #member010_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/tom.jpg);
+            }
+        }
+        #member020, 
+        #member020_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/david.jpg);
+            }
+        }
+        #member030, 
+        #member030_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/rodrigo.jpg);
+            }
+        }
+        #member040, 
+        #member040_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/tammy.jpg);
+            }
+        }
+
+        #member050, 
+        #member050_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/matt.jpg);
+            }
+        }
+        #member060, 
+        #member060_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/al.jpg);
+            }
+        }
+        #member070, 
+        #member070_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/colleen.jpg);
+            }
+        }
+        #member080, 
+        #member080_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/ainsley.jpg);
+            }
+        }
+        #member090, 
+        #member090_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/nick.jpg);
+            }
+        }
+        #member100, 
+        #member100_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/katie.jpg);
+            }
+        }
+        #member110, 
+        #member110_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/todd.jpg);
+            }
+        }
+        #member120, 
+        #member120_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/ella.jpg);
+            }
+        }
+        #member130, 
+        #member130_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/hermina.jpg);
+            }
+        }
+        #member140, 
+        #member140_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/newton.jpg);
+            }
+        }
+        #member150, 
+        #member150_modal {
+            .member-photo {
+                background-image: url(../../img/ppl/brad.jpg);
+            }
+        }
+
+        
+
+    }
+
+    @media screen and (min-width: 650px) {
+
+        #actamofis01 {
+
+            .container {
+                width: 100%;
+                display: flex;
+                // min-height: 25rem;
+                background-color: transparent;
+                box-shadow: none;
+            }
+            .tabs {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                // float: left;
+                margin-bottom: 20px;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .tab {
+                span, button {
+                    
+                    font-weight: 700;
+                }
+                span {
+                    // margin: 0 0.4em;
+                    // font-size: 25px;
+                    font-weight: 900;
+                    margin: 0 1em;
+                    font-family: $cnx_font_0001;
+                }
+                button {
+                    width: auto;
+                    font-size: 16px;
+                    // padding-left: 0;
+                    // padding-right: 0;
+                    padding: 7px 0 5px;
+                    color: $cnx_clr_0002;
+
+
+
+                    &.active {
+                        background-color: transparent;
+                        color: $cnx_clr_0011;
+                        border-bottom: 2px solid $cnx_clr_0004;
+                    }
+                }
+            }
+
+
+            .pages {
+                // display: none;
+                width: 100%;
+            }
+
+            .tablinks {
+                &.mobile {
+                    display: none;
+                }
+            }
+
+            .owl-carousel {
+                // border: 1px dashed red;
+            }
+
+            $item_width: 23%;
+            
+            .exowlbox {
+
+
+                // v2
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; 
+                // background-color: #ffffff;
+                // padding: 1em;
+                margin: 1em auto;
+                opacity: 1;
+
+                // v1
+                // display: flex;
+                // flex-direction: row;
+                // flex-wrap: wrap;
+                // justify-content: space-between;
+                // width: 100%;
+
+                // padding: 1em;
+                // margin: 1em auto;
+
+
+
+
+                > div:last-child {
+                    // border: 1px dashed blue;
+                    // margin-right: auto; // NOT working when resized. make the last element adjust to the left;
+                    // margin-left: 5%;
+                }
+                > div:nth-last-child(2) { // penultimate child
+                    // border: 1px solid blue;
+
+                }
+                &:after {
+                    content: "";
+                    // flex: 1000;
+                    flex-basis: $item_width;
+                }
+            }
+            
+            .itemC {
+                // width:30%;
+                // padding: 1rem;
+                // margin: 1rem;
+                
+                // v2 - works
+                // height: 10em;
+                width: $item_width;
+                // padding: 0.5em;
+                box-sizing: border-box;
+                margin-bottom: 3em;
+
+                position: relative;
+                // v1 - doesn't work
+                // padding: 0.5em;
+                // box-sizing: border-box;
+                // flex: 0 1 375px;
+
+                h1, p {
+                    font-size: 20px;
+                }
+                img {
+                    width: 100%;
+                    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+                }
+                .badge {
+                    padding: 0;
+                }
+                .cross {
+                    width: $cross-size;
+                    position: absolute;
+                    top: $cross-pad;
+                    right: $cross-pad;
+                    // border: 1px solid red;
+                    // height: 100px;
+                    div {
+                        height: $cross-size;
+                        // height: auto;
+                        position: relative;
+                        background-color: #cccccc;
+                        border-radius: 12%;
+                        padding: 1%;
+
+                        &:before {
+                            left: 50%;
+                            width: 20%;
+                            margin-left: -10%;
+                            height: 60%;
+                            top: 20%;
+                        }
+                        &:after {
+                            top: 50%;
+                            height: 20%;
+                            margin-top: -10%;
+                            width: 60%;
+                            left: 20%;
+                        }
+                        &:before,
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            z-index: 1;
+                            background: #ffffff;
+                        }
+                    }                    
+                }
+            }
+
+            .tab {
+                
+                // width: 30%;
+            }
+            /* Style the tab content */
+            .tabcontent {
+                display: none;
+                // width: 70%;
+                background-color: transparent;
+                &.active {
+                    display: flex;
+                }
+            }
+            // .owl-theme {
+            //     .owl-dots {
+            //         .owl-dot {
+            //             span {
+            //                 width: 1rem;
+            //                 height: 1rem;                        
+            //             }
+            //         }
+            //     }
+            // }
+            
+        }
+
+        
+    }
+
+
+
+

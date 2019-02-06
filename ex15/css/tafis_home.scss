@@ -1,0 +1,548 @@
+@import '_variables';
+
+	#tafis_home_page {
+	    .tafis-container {
+	    	// border: 1px dashed brown;
+	        display: flex;
+	        flex-direction: column;
+	        align-items: center;
+	        padding-bottom: 2rem;
+	        // margin-left: 4%;
+	        // margin-right: 4%;
+
+	        .tafis--buttons {
+		        button {
+		        	text-transform: uppercase;
+		        	font-family: "Open Sans", sans-serif;
+		        	font-size: 16px;
+		        	border: transparent;
+		        	background-color: transparent;
+		        	cursor: pointer;
+		        	color: $cnx_clr_0002;
+					font-weight: bold;
+					// padding-bottom: 1rem;
+					// padding: 0 1rem 1rem;
+					padding: 7px 0 5px;
+					border-bottom: 2px solid transparent; 
+					transition: all 0.3s ease-in-out;
+
+					
+					
+					&:hover {
+						color: $cnx_clr_0004;
+					}
+
+		            &.active {
+		                // background-color: red; 
+		                // text-decoration: underline;
+		                color: $cnx_clr_0004;
+		                // text-decoration-color: $cnx_clr_0004; 
+		                border-bottom: 2px solid $cnx_clr_0004; 
+		                
+
+		            }
+		        }
+		        span {
+		        	font-weight: 900;
+		        	margin: 0 1em;
+		        }
+		    }
+
+	        .tafis--frames-images {
+	            // border: 3px solid blue;
+	            display: flex;
+	            flex-direction: row;
+	            z-index: 10;
+	            // border: 1px solid red;
+	        }
+
+	        .tafis {
+		        // border: 1px solid red;
+		        // width: 60rem; 
+		        background-color: #fff;
+		        // padding-bottom: 1rem;
+		        // padding: 0 4rem 1rem 1rem; // v1
+		        padding: 1rem; // v2 
+		        box-shadow: #ccc 1px 1px 14px 2px;
+		        // margin-right: 5rem;
+
+		    }
+
+		    .owl-item {
+		    	transition-duration: 5s;
+		    	// border: 1px solid red;
+		    	// background-color: #ccc;
+		    }
+
+	        .tafis--frame {
+	            // background:#ccc;
+	            // height: 100px;
+	            // width:90%;
+	            margin:0 auto;
+	            // padding: 1rem 0;
+	            // text-align:center;
+
+	            #owl-example1 & {
+	                // background:tomato;
+	                // background-color: #fff;
+	            }
+	            #owl-example2 & {
+	                // background:tan;
+	                // background-color: #fff;
+
+	            }
+	            #owl-example3 & {
+	                // background:#ff8800;
+	                // background-color: #fff;
+
+	            } 
+	            h1 {
+		    		font-size: 26px;
+	                font-family: $cnx_font_0001;
+	                text-transform: uppercase;
+	                font-weight: 700;
+	                line-height: 1em;	    
+	                margin-top: 0;            
+	            }
+	            p, li {
+	                font-family: $cnx_font_0002;
+	                // font-size: 1.5rem;
+	                font-size: 20px;
+	                line-height: 1.4em;
+	            }
+	            ul {
+	            	padding-left: 40px;
+	            }
+	            li {
+	            	list-style: none;
+	            	margin-top: 1rem;
+	            	i {
+	            		color: $cnx_clr_0009;
+	            		// padding-right: 2rem;
+	            		// margin-left: -2.6rem; // v1
+	            		// margin-left: -4rem; // v2
+	            		// font-size: large;
+
+
+	            		padding-right: 15px;
+	            		margin-left: -40px;
+	            		font-size: 25px;
+	            	}
+	            	//------------------------------
+	            	// v1 makes the bullet hanging
+	            	// v2 moves bullet left 
+	            	//------------------------------
+	            }
+
+	        }
+
+	        .tafis--images {
+	        	display: flex;
+	        	flex-direction: column;
+	        	// justify-content: center; // v1
+	        	justify-content: flex-end; // v2 (190109)
+	        	// width: 270px;
+	        }
+
+	        .tafis--images-wrapper {
+	            display: flex;
+	            flex-direction: column;
+	            justify-content: flex-end;
+	            position: relative;
+	            width: 324px;
+	            padding: 0 26px 0 30px;
+	            background-color: #ececec;
+
+	            &:after {
+	            	content: "";
+	            	width: 94%;
+	            	height: 17px;
+	            	box-shadow: #333 0px 6px 8px 4px;
+	            	position: absolute;
+	            	bottom: 2px;
+            	    left: 11px;
+            	    border-radius: 50%;
+            	    background-color: #333;
+            	    z-index: -3;
+
+
+	            }
+	        }
+
+	        .tafis--image {
+	            display: none;
+				
+				background-size: contain;
+				background-repeat: no-repeat;
+				width: 100%;
+				padding-bottom: 43rem;
+				margin-bottom: -1px;
+
+
+	            &.active {
+	                display: flex;
+	                // border: 3px solid slateblue;
+	                z-index: 1;
+	                // max-width: 100px;
+	            }
+	            
+	        }
+
+		    .tafis--accordion-item {
+		    	display: none;
+		        // background:#ccc;
+		        // height: 100px;
+		        // width:90%;
+		        margin:0 auto;
+		        // padding: 1rem 0;
+		        // text-align:center;
+		        color: $cnx_clr_0012;
+
+		        
+		        h1 {
+		            font-family: $cnx_font_0001;
+		            text-transform: uppercase;
+		            font-weight: 600;
+		        }
+		        p, li {
+		            font-family: $cnx_font_0002;
+		            // font-size: 1.5rem;
+		            font-size: 18px;
+		            line-height: 1.4em;
+		        }
+
+		        &.active {
+			        // transition: .3s transform ease-in-out;
+			        // max-height: 1000px;
+			        // max-height: 500px;
+			        // transition: max-height 1s ease-in-out;
+			        // display: flex;
+			        display: block;
+			    }
+
+		    }
+
+		}
+
+		.owl-carousel {
+			// background-color: #fff;
+			// // padding-bottom: 1rem;
+			// padding: 0 4rem 1rem 1rem;
+			// box-shadow: #ccc 1px 1px 14px 2px;
+			// margin-right: 5rem;
+		}
+	}
+
+	#tafis-image_01,
+	#tafis-image_02,
+	#tafis-image_03,
+	#tafis-image_04,
+	#tafis-image_05,
+	#tafis-image_06,
+	#tafis-image_07,
+	#tafis-image_08,
+	#tafis-image_09 {
+		background-image: url(../../img/tafis-frame-img-01.png);
+	}
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 300px) {
+    	#tafis_home_page {
+	    	.tafis-container {
+
+	    		.owl-dots {
+	    			display: none; // request of 190111
+	    		}
+	            .tafis--frame {
+	                margin: 2rem 1rem 0;
+	            }
+	            
+				.tafis--accordion {
+					width: 100%;
+					button { 
+			            transition: $cnx_transition_speed_0001;
+			            
+		                // display: block;
+		                // width: 100%;
+		                // text-align: left;
+		                // transition: 0.4s;
+		                // background-color: $cnx_clr_0010;
+		                // color: #fff;
+		                // font-family: $cnx_font_0001;
+		                // font-size: 1.5rem;
+		                // font-size: $cnx_font_size_0001;
+		                // font-weight: $cnx_font_weight_0001;
+		                // text-transform: uppercase;
+		                // padding: 1rem 1.4rem;
+		                // line-height: 1.5;
+
+		                @include accordion_tab_styles();
+
+		                span {
+		                    // transition: 0.4s;
+		                    &.closed {
+		                        // transition: 0.4s;
+		                        display: inline-block;
+		                        margin-right: 2px;
+		                    }
+		                    &.open {
+		                        // transition: 0.4s;
+		                        display: none;
+		                    }
+		                }
+
+			                 // opacity: 0.0;
+			                  // transform: scale(0.95) translate3d(0,100%,0);
+			                  // transition: transform 400ms ease, opacity 400ms ease;
+
+		                &.active {
+		                    // transition: all 0.4s ease-in-out;
+
+		                    // opacity: 1.0;
+		                    // transform: scale(1.0) translate3d(0,0,0);
+
+		                    background-color: $cnx_clr_0009;
+		                    span {
+		                        &.closed {
+		                            display: none;
+		                        }
+		                        &.open {
+		                            display: inline-block;
+		                            margin-right: 2px;
+		                        }
+		                    }
+		                    
+		                }
+			            
+			        }		        
+			    }
+
+			    .tafis--accordion-item {
+		            // margin-top: 1rem;
+		            // margin: 2rem 1rem 0;
+		            padding: 2rem;
+		            background-color: $cnx_clr_0006;
+
+		            ul {
+		            	list-style: none;
+		            	padding: 0;
+		            }
+		            li {
+		            	// padding-left: 1.3em;
+		            	margin-top: 1rem;
+		            
+			            &:before {
+							// content: "\f00c"; /* FontAwesome Unicode */
+							// font-family: FontAwesome;
+							// display: inline-block;
+							// margin-left: -1.3em; /* same as padding-left set on li */
+							// width: 1.3em; /* same as padding-left set on li */
+
+							content: "\f0a9";
+							color: $cnx_clr_0004;
+		                    font-family: "Font Awesome\ 5 Free";
+		                    font-weight: 900;
+		                    margin-right: 6px;
+		                    font-size: 20px;
+						}
+					}
+		        }
+			    .tafis--buttons, .tafis--frames-images {
+		        	display: none;
+		        }
+
+		        .tafis--accordion {
+		        	display: block;
+		        }
+	        }
+	    }
+    }
+
+    @media screen and (min-width: 650px) {
+    	#tafis_home_page {
+	    	.tafis-container {
+	    		margin-right: 5%;
+	    		margin-left: 5%;
+
+	            .tafis--frame {
+	                // width:90%;
+	                padding: 1rem;
+	                margin: 1rem;
+	                h1 {
+	                    display: block;
+	                }
+	            }
+	         //    .owl-theme {
+		        //     .owl-dots {
+		        //         .owl-dot {
+		        //             span {
+		        //                 width: 1rem;
+		        //                 height: 1rem;                        
+		        //             }
+		        //         }
+		        //     }
+		        // }
+
+
+
+		        .tafis--buttons {
+		        	display: flex;
+		        	flex-direction: row;
+		        	// white-space: nowrap;
+		        	white-space: normal;
+		        	// font-size: small;
+		        	align-items: center;
+		        }
+		        .tafis--frames-images {
+		        	display: flex;
+		        	width: 100%;
+		        	margin-top: 3rem;
+		        	// flex-direction: row;
+		        	flex-direction: column;
+
+		        	// justify-content: space-between;
+		        }
+
+		        .tafis {
+		        	// flex: 1 1 70%;
+		        	// width: 80%;
+		        	// max-width: 64%;
+		        	max-width: 100%;
+		        }
+
+		        .tafis--images {
+		        	align-items: center; 
+		        	margin-top: 2em;
+		        	// flex: 1 1 30%;
+		        	// min-width: 300px;
+		        }
+
+
+
+		        
+
+		        .tafis--accordion {
+		        	display: none;
+		        	width: 100%;
+		        	border: 1px teal;
+		        }
+
+		        //----------------------
+				.owl-theme {
+		            .owl-dots {
+		                .owl-dot {
+		                    span {
+		                        width: 1.5rem;
+		                        height: 1.5rem;
+		                        margin: 5px 2px;
+		                        background: $cnx_clr_0004 !important;
+		                    }
+		                }
+		                .owl-dot.active {
+		                    span {
+		                        background: $cnx_clr_0007 !important;
+		                    }
+		                }
+		            }
+		        }
+				//----------------------
+	        }
+	    }
+
+
+	    #tafis_area {
+	    	width: 100%;
+	    }
+        
+    }
+
+
+    @media screen and (min-width: 800px) {
+    	#tafis_home_page {
+    		.tafis-container {
+    			// margin-right: 70px;
+    			// margin-left: 70px;
+    			.tafis--buttons {
+    				font-size: inherit;
+    			}
+				
+				.tafis {
+					width: 59%;
+					// margin-right: 5%;
+				}
+
+    			.tafis--frames-images {
+    				flex-direction: row;
+					justify-content: space-between;
+    			}
+    			.tafis--images {
+    				margin-top: 0;
+    				width: 273px;
+    			}
+    		}
+    	}
+		#tafis_area {
+			// width: 60%;
+		}
+    }
+
+    @media screen and (min-width: 960px) {
+    	#tafis_home_page {
+    		.tafis-container {
+				.tafis {
+					width: 62%;
+				}
+    		}
+    	}
+	}
+
+
+    @media screen and (min-width: 1050px) {
+    	#tafis_home_page {
+    		.tafis-container {
+				.tafis {
+					width: 64%;
+				}
+    		}
+    	}
+	}
+
+
+
+    @media screen and (min-width: 1200px) {
+
+    	#tafis_home_page {
+    		.tafis-container {
+				.tafis {
+					width: 68%;
+				}
+    		}
+    	}
+    }
+
+    @media screen and (min-width: 1280px) {
+
+    	#tafis_home_page {
+    		.tafis-container {
+				.tafis {
+					width: 69%;
+				}
+    		}
+    	}
+    }
+
+
+    @media screen and (min-width: 1366px) {
+
+    	#tafis_home_page {
+    		.tafis-container {
+				.tafis {
+					width: 71%;
+				}
+    		}
+    	}
+    }

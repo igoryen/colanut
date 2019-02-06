@@ -1,0 +1,107 @@
+@import '_variables';
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    *, *:before, *:after { box-sizing: border-box; }
+
+    body {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+
+/* Workaround */
+/* Styles for solving the issue */
+.collapse {
+  display: block !important;
+  height: 0px;
+  overflow: hidden;
+}
+.collapse.in {
+  height: auto !important;
+}
+
+
+
+
+/* Customised style */
+/* This styles used for only customization of UI */
+.container{
+  margin-top: 20px;
+}
+.panel-heading {
+  border: 1px solid #eee;
+  height: 55px;
+}
+img {
+  width: 100px;
+  margin-top: 40px;
+}
+.slick-prev:before, .slick-next:before{
+  color: green !important;
+}
+.panel-body {
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+    .anthony {
+        color: green;
+        font-size: 1em;
+        background-color: yellow;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: left;
+    }
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 400px) {
+
+        
+    }

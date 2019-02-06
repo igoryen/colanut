@@ -1,0 +1,30 @@
+@import '_variables';
+
+#header_section {
+	border: 3px solid green;
+
+}
+
+
+
+.n_randall {
+	display: flex;
+    width: 100%;
+    flex-direction: row;    
+    justify-content: space-between;
+    // background-color: $cnx_clr_0006;
+
+
+
+	.controls {
+		text-align: right;
+	}
+
+    button {
+    	width: auto;
+    	text-transform: uppercase;
+    	background-color: $cnx_clr_0006;
+    	color: $cnx_clr_0002;
+    }
+}
+

@@ -1,0 +1,39 @@
+/* !!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS FILE WHICH MUST BE MODIFIED INSTEAD! 
+CNX > Home > sec22 - Benefits (mobile) > Columns > Testimonial Carousel
+!!!!!!!!!!*/
+#home_sec22 .elementor-testimonial__footer {
+  display: none;
+}
+
+#home_sec22 .cnx-more-features ul {
+  padding-left: 0;
+}
+
+#home_sec22 .cnx-more-features li {
+  list-style: none;
+  margin-left: 29px;
+  margin-bottom: 15px;
+}
+
+#home_sec22 .cnx-more-features li:before {
+  content: "\f058";
+  margin-right: 10px;
+  margin-left: -29px;
+  color: #298dd3;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+#home_sec22 .cnx-more-features .swiper-pagination-bullet {
+  background-color: #308dca;
+  opacity: 1;
+  width: 1em !important;
+  height: 1em !important;
+}
+
+#home_sec22 .cnx-more-features .swiper-pagination-bullet-active {
+  background-color: #47aff6;
+}
+
+/*# sourceMappingURL=home--sec22.css.map */

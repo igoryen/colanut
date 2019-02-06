@@ -1,0 +1,103 @@
+$mercury: #e7e7e7;
+
+$cnx_clr_0001: #c6e5f7; // Tropical Blue
+$cnx_clr_0002: #054877; // Venice Blue
+$cnx_clr_0003: #013a67; // Regal Blue
+$cnx_clr_0004: #308dca; // Curious Blue 1
+$cnx_clr_0005: #fb2232; // Torch Red
+$cnx_clr_0006: #ffffff; // White
+$cnx_clr_0007: #47aff6; // Picton Blue (light blue)
+$cnx_clr_0008: #6ec1e4; // Seagull
+$cnx_clr_0009: #298dd3; // Curious Blue 2 - the color of the bullet (right arrow in circle) in the lists
+$cnx_clr_0010: #013b65; // Astronaut Blue
+$cnx_clr_0011: #116fb0; // Denim
+$cnx_clr_0012: #333333; // Mine Shaft - the color of the font of the copy throughout the site
+$cnx_clr_0013: #ececec; // Gallery - the light gray color of the background throughout the site;
+$cnx_clr_0014: #999999; // Dusty Gray - the light gray color of the placeholders in the form fields
+
+
+
+$cnx_font_0001: 'Open Sans', sans-serif;
+$cnx_font_0002: 'Merriweather', serif;
+
+$cnx_font_size_0001: 18px; // the font size used in the tabs of the accordions that show up in mobile
+$cnx_font_weight_0001: 700; // the font weight used in the tabs of the accordions that show up in mobile
+
+$cnx_transition_speed_0001: 500ms;
+
+// modal
+$cross-size: 30px;
+$cross-pad: 10px;
+
+
+// MOBILE
+@mixin accordion_tab_styles {
+
+    background-color: $cnx_clr_0010;
+    color: $cnx_clr_0006;
+    display: block;
+    font-family: $cnx_font_0001;
+    font-size: $cnx_font_size_0001;
+    font-weight: $cnx_font_weight_0001;
+    line-height: 1.5;
+    padding: 1rem 1.4rem;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+@mixin tafis_tabs { 
+    .tafis--buttons {
+
+        white-space: normal;
+        a {
+            text-decoration: none;
+            // padding: 0 0.5em;
+        }
+        display: flex;
+        flex-direction: row;
+        // white-space: nowrap;
+        
+        // font-size: small;
+        // align-items: center;
+
+        button, a {
+
+            
+            text-transform: uppercase;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            border: transparent;
+            background-color: transparent;
+            cursor: pointer;
+            color: $cnx_clr_0002;
+            font-weight: bold;
+            // padding-bottom: 1rem;
+            padding: 7px 0 5px;
+            border-bottom: 2px solid transparent; 
+            transition: all 0.3s ease-in-out;
+
+            
+            
+            &:hover {
+                color: $cnx_clr_0004;
+            }
+
+            &.active {
+                // background-color: red; 
+                // text-decoration: underline;
+                color: $cnx_clr_0004;
+                // text-decoration-color: $cnx_clr_0004; 
+                border-bottom: 2px solid $cnx_clr_0004; 
+
+            }
+        }
+
+        span {
+            font-weight: 900;
+            margin: 0 1em 1px;
+            font-family: $cnx_font_0001;
+        }
+    }
+}

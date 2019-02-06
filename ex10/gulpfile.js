@@ -22,6 +22,8 @@ var input = [
   'css/debug-mobile-first.scss', 
   'css/globals.scss',
   'css/dash.scss',
+  'css/file-status.scss',
+  'css/check-boxes.scss',
   'css/milestones.scss',
   'css/styles1.scss', 
   'css/styles2.scss'  
@@ -68,7 +70,7 @@ gulp.task('sass', function () {
     .pipe(concat('all.css'))
 
 
-    .pipe(cleanCSS())
+    // .pipe(cleanCSS())
     // .pipe(sourcemaps.write()) // 6
 
     .pipe(sourcemaps.write('.')) // 7

@@ -1,0 +1,61 @@
+@import '_variables';
+
+
+#doughnut-progress {
+    position: relative;
+    $side: 20rem;
+    // border: 1px solid red;
+    height: $side;
+    min-width: $side;
+}
+
+#container {    
+    
+    $side2: 100%;
+    // border: 1px dashed blue;
+    height: $side2;
+    min-width: $side2;
+}
+
+#addText {
+    $side3: 100%;
+    // border: 1px dashed green;
+    // height: $side3;
+    // min-width: $side3;
+}
+
+#container, #addText {
+    // display: 1px solid red;
+    position:absolute; 
+    left:0px; 
+    top:0px;
+}
+
+#pieChartInfoText {
+    // color: red;
+    line-height: 2rem;
+    position:absolute; 
+    text-align:center;
+
+    span {
+        &:first-child {
+            // color: red;
+            font-size: 5rem;
+            .prc-sign {
+                font-size: 2rem;
+            }
+        }
+        &:last-child {
+            // color: green;
+            font-size: inherit;
+        }
+        &.done {
+            color: $clr_0010;
+            font-weight: 700;
+            font-size: 2rem;
+        }
+    }
+}
+
+
+
