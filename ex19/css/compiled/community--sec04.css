@@ -1,0 +1,59 @@
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS FILE WHICH MUST BE MODIFIED INSTEAD! 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.slick-track {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+     -moz-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.elementor-slick-slider ul.slick-dots {
+  bottom: -23% !important;
+}
+
+.elementor-slick-slider ul.slick-dots li {
+  margin: 0 5px;
+}
+
+.elementor-slick-slider ul.slick-dots li button::before {
+  opacity: 1 !important;
+  font-size: 1em !important;
+  background-color: #47aff6;
+  border-radius: 50%;
+  color: transparent;
+}
+
+.elementor-slick-slider ul.slick-dots li.slick-active button::before {
+  opacity: 1 !important;
+  background-color: #116fb0;
+  color: transparent;
+}
+
+.elementor-slick-slider .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+body[data-elementor-device-mode="mobile"] .elementor-slick-slider ul.slick-dots li {
+  margin: 0;
+}
+
+body[data-elementor-device-mode="mobile"] .elementor-slick-slider ul.slick-dots li button::before {
+  width: 15px;
+  height: 15px;
+}
+
+/*# sourceMappingURL=community--sec04.css.map */

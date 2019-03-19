@@ -25,13 +25,14 @@ var input = [
   'css/ante/about--section--our-culture.scss',
   'css/ante/about--section--the-teams.scss',
   'css/ante/community--hero-mobile.scss',
-  'css/ante/community--image-carousel.scss',
+  'css/ante/community--sec04.scss',
   'css/ante/contact--form.scss',
   'css/ante/contact--section-04.scss',
   'css/ante/demo--section-04-old.scss',
   'css/ante/demo--section-04.scss',
   'css/ante/demo--hero-mobile.scss',
   'css/ante/elementor-accordion.scss',
+  'css/ante/footer--sec01.scss',
   'css/ante/header--sec01.scss',
   'css/ante/header--section--header-nav-nav-menu.scss',
   'css/ante/header--supra-header.scss',
@@ -60,14 +61,32 @@ var sassOptions = {
     outputStyle: 'expanded'
 }; // 4
 
+// var autoprefixerOptions = {
+//   browsers: [
+//     'last 2 versions', 
+//     '> 5%', 
+//     'Firefox ESR',
+//     'safari 5'
+//   ]
+// };
+
 var autoprefixerOptions = {
   browsers: [
+    // 'last 2 versions', 
+    // '> 5%', 
+    // 'Firefox ESR'
+    '> 1%', 
     'last 2 versions', 
-    '> 5%', 
-    'Firefox ESR',
-    'safari 5'
+    'firefox >= 4', 
+    'safari 7', 
+    'safari 8', 
+    'IE 8', 
+    'IE 9', 
+    'IE 10', 
+    'IE 11'
   ]
 };
+
 
 var sassdocOptions = {
   dest: 'sassdoc'

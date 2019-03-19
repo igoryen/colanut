@@ -55,6 +55,20 @@
   color: #999999;
 }
 
+#contact_section-04 .form-group input[type="text"]:-moz-placeholder,
+#contact_section-04 .form-group input[type="tel"]:-moz-placeholder,
+#contact_section-04 .form-group input[type="email"]:-moz-placeholder,
+#contact_section-04 .form-group select:-moz-placeholder {
+  color: #999999;
+}
+
+#contact_section-04 .form-group input[type="text"]::-moz-placeholder,
+#contact_section-04 .form-group input[type="tel"]::-moz-placeholder,
+#contact_section-04 .form-group input[type="email"]::-moz-placeholder,
+#contact_section-04 .form-group select::-moz-placeholder {
+  color: #999999;
+}
+
 #contact_section-04 .form-group input[type="text"]:-ms-input-placeholder,
 #contact_section-04 .form-group input[type="tel"]:-ms-input-placeholder,
 #contact_section-04 .form-group input[type="email"]:-ms-input-placeholder,
@@ -128,6 +142,7 @@
   padding: 0.65em 2.8em 0.55em 31px;
   border-radius: 5px;
   background-color: white;
+  background-image: -moz-linear-gradient(#499ad1, #499ad1), -moz-linear-gradient(225deg, transparent 50%, #86cbfb 50%), -moz-linear-gradient(315deg, transparent 50%, #86cbfb 50%), -moz-linear-gradient(#86cbfb 42%, #4fa9e6 42%);
   background-image: linear-gradient(#499ad1, #499ad1), linear-gradient(-135deg, transparent 50%, #86cbfb 50%), linear-gradient(-225deg, transparent 50%, #86cbfb 50%), linear-gradient(#86cbfb 42%, #4fa9e6 42%);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 1px 100%, 55px 40px, 40px 55px, 55px 100%;
@@ -135,10 +150,12 @@
 }
 
 #contact_section-04 .form-group select:hover {
+  background-image: -moz-linear-gradient(#4fa9e6, #4fa9e6), -moz-linear-gradient(225deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(315deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   background-image: linear-gradient(#4fa9e6, #4fa9e6), linear-gradient(-135deg, transparent 50%, #4fa9e6 50%), linear-gradient(-225deg, transparent 50%, #4fa9e6 50%), linear-gradient(#4fa9e6 42%, #86cbfb 42%);
 }
 
 #contact_section-04 .form-group select:active {
+  background-image: -moz-linear-gradient(#4fa9e6, #4fa9e6), -moz-linear-gradient(225deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(315deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   background-image: linear-gradient(#4fa9e6, #4fa9e6), linear-gradient(-135deg, transparent 50%, #4fa9e6 50%), linear-gradient(-225deg, transparent 50%, #4fa9e6 50%), linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   color: #86cbfb;
   border-color: #4fa9e6;

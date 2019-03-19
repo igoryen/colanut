@@ -4,13 +4,20 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
 /* Styling for the Form on the Request Demo page */
 .elementor-1505 .elementor-element.elementor-element-b7280aa .elementor-message {
   display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 2em;
@@ -101,6 +108,14 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
   font-size: 24px;
 }
 
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual:-moz-placeholder {
+  font-size: 24px;
+}
+
+#demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual::-moz-placeholder {
+  font-size: 24px;
+}
+
 #demo_section-04 form.elementor-form .elementor-field-group .elementor-field-textual:-ms-input-placeholder {
   font-size: 24px;
 }
@@ -149,6 +164,14 @@ body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .
 }
 
 body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual:-moz-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] #demo_section-04 form.elementor-form .elementor-field-textual::-moz-placeholder {
   font-size: 18px;
 }
 

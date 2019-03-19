@@ -3,13 +3,20 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
 !!!!!!!!!!*/
 selector .elementor-accordion .elementor-tab-title {
   display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }

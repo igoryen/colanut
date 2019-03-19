@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer--sec01.scss"],"names":[],"mappings":"AAAA;EAEE,gBAAe;CAEf","file":"footer--sec01.css","sourcesContent":["#footer_apps {\r\n\ta {\r\n\t\tmax-width: 100%;\r\n\t\t// border: 1px dashed white;\r\n\t}\r\n}"]}

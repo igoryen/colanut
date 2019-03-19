@@ -249,12 +249,29 @@
     @media screen and (min-width: 568px) {
         #actamofis01 {
 
+            $modal_max_height: 620px;
+
             .modal-content {
                 flex-direction: row;
+
+
+                // v01
+                // align-items: flex-start;
+                // height: auto;
+                // max-height: 95vh;
+                // overflow-y: unset;
+                
+                // v02
                 align-items: flex-start;
-                height: auto;
-                max-height: 95vh;
+                // align-items: center;
+
+                // height: auto;
+                // max-height: 95vh;
+                max-height: $modal_max_height;
+                // min-height: 300px;
                 overflow-y: unset;
+                
+                // border: 3px dashed red;
             }
             .modal-headshot {
                 max-width: 35%;
@@ -263,6 +280,7 @@
             }
             .modal-description {
                 width: 100%;
+                max-height: $modal_max_height;
                 padding-right: 5%;
                 display: flex;
                 flex-direction: column;

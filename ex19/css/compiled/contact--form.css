@@ -6,13 +6,20 @@ WHICH MUST BE MODIFIED INSTEAD!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .elementor-1215 .elementor-element.elementor-element-c4b5a3f .elementor-message {
   display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 2em;
@@ -87,6 +94,7 @@ form.elementor-form select {
   padding: 0.65em 2.5em 0.55em 0.75em;
   border-radius: 2px;
   background-color: white;
+  background-image: -moz-linear-gradient(#499ad1, #499ad1), -moz-linear-gradient(225deg, transparent 50%, #86cbfb 50%), -moz-linear-gradient(315deg, transparent 50%, #86cbfb 50%), -moz-linear-gradient(#86cbfb 42%, #4fa9e6 42%);
   background-image: linear-gradient(#499ad1, #499ad1), linear-gradient(-135deg, transparent 50%, #86cbfb 50%), linear-gradient(-225deg, transparent 50%, #86cbfb 50%), linear-gradient(#86cbfb 42%, #4fa9e6 42%);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 1px 100%, 55px 40px, 40px 55px, 55px 100%;
@@ -94,10 +102,12 @@ form.elementor-form select {
 }
 
 form.elementor-form select:hover {
+  background-image: -moz-linear-gradient(#4fa9e6, #4fa9e6), -moz-linear-gradient(225deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(315deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   background-image: linear-gradient(#4fa9e6, #4fa9e6), linear-gradient(-135deg, transparent 50%, #4fa9e6 50%), linear-gradient(-225deg, transparent 50%, #4fa9e6 50%), linear-gradient(#4fa9e6 42%, #86cbfb 42%);
 }
 
 form.elementor-form select:active {
+  background-image: -moz-linear-gradient(#4fa9e6, #4fa9e6), -moz-linear-gradient(225deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(315deg, transparent 50%, #4fa9e6 50%), -moz-linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   background-image: linear-gradient(#4fa9e6, #4fa9e6), linear-gradient(-135deg, transparent 50%, #4fa9e6 50%), linear-gradient(-225deg, transparent 50%, #4fa9e6 50%), linear-gradient(#4fa9e6 42%, #86cbfb 42%);
   color: #86cbfb;
   border-color: #4fa9e6;
@@ -136,6 +146,14 @@ form.elementor-form .elementor-field-group.elementor-field-group-fdd1668 {
 }
 
 form.elementor-form .elementor-field-group .elementor-field-textual::-webkit-input-placeholder {
+  font-size: 24px;
+}
+
+form.elementor-form .elementor-field-group .elementor-field-textual:-moz-placeholder {
+  font-size: 24px;
+}
+
+form.elementor-form .elementor-field-group .elementor-field-textual::-moz-placeholder {
   font-size: 24px;
 }
 
@@ -187,6 +205,14 @@ body[data-elementor-device-mode="mobile"] form.elementor-form .elementor-field-t
 }
 
 body[data-elementor-device-mode="mobile"] form.elementor-form .elementor-field-textual::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] form.elementor-form .elementor-field-textual:-moz-placeholder {
+  font-size: 18px;
+}
+
+body[data-elementor-device-mode="mobile"] form.elementor-form .elementor-field-textual::-moz-placeholder {
   font-size: 18px;
 }
 

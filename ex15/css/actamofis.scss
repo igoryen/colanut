@@ -443,8 +443,8 @@
                 }
                 &:after {
                     content: "";
-                    // flex: 1000;
                     flex-basis: $item_width;
+                    display: block; // for IE
                 }
             }
             

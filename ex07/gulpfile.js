@@ -23,6 +23,7 @@ var input = [
   'css/globals.scss',
   'css/home-page.scss',
   'css/home-page-carousel.scss',
+  'css/home-page-carousel-2.scss',
   'css/process-diagram.scss',
   'css/solutions.scss',
   'css/about-us.scss',

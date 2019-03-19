@@ -43,7 +43,7 @@ var inputjs = [
   'js/tafis_tour.js',
   'js/tafis_about.js',
   'js/actamofis.js',
-  'js/vertislider.js',
+  // 'js/vertislider.js',
 
 
 
@@ -58,9 +58,18 @@ var sassOptions = {
 
 var autoprefixerOptions = {
   browsers: [
+    // 'last 2 versions', 
+    // '> 5%', 
+    // 'Firefox ESR'
+    '> 1%', 
     'last 2 versions', 
-    '> 5%', 
-    'Firefox ESR'
+    'firefox >= 4', 
+    'safari 7', 
+    'safari 8', 
+    'IE 8', 
+    'IE 9', 
+    'IE 10', 
+    'IE 11'
   ]
 };
 

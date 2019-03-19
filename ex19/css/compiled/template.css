@@ -13,13 +13,17 @@ selector {
 body[data-elementor-device-mode="tablet"] .pg-about--zigzag .elementor-row {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
 .elementor-row {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=template.css.map */

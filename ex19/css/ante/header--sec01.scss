@@ -26,7 +26,7 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
                     }
                 }
             }
-        }
+        }        
     }
 
     .elementor-sticky--active {
@@ -62,6 +62,15 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
             max-height: 50px;
             transition: all 0.3s ease;
         } 
+    }
+
+
+    #sec01_header_nav {
+        nav {
+            ul {
+                width: 100%;
+            }
+        }
     }
 
 // EO Section 1

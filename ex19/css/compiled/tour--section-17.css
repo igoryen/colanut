@@ -7,16 +7,23 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
 
 #tour_section-17 .elementor-testimonial__content {
   display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
 #tour_section-17 .elementor-testimonial__cite {
   -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+     -moz-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
   margin-top: 0;
@@ -24,6 +31,8 @@ ATTENTION: THIS IS NOT THE CSS YOU ARE LOOKING FOR! IT WAS GENERATED FROM A SASS
 
 #tour_section-17 .elementor-testimonial__text {
   -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+     -moz-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
   margin-top: 25px;
