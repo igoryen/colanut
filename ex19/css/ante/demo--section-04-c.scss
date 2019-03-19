@@ -23,7 +23,7 @@ Updated CSS for Elementor forms 1.7.4.*/
 		
 	}
 	.form_field_required {
-		.form-group {
+		.elementor-widget-container {
 
 			position: relative;
 			&:before {
@@ -45,7 +45,7 @@ Updated CSS for Elementor forms 1.7.4.*/
 		}
 	}
 
-	.form-group {
+	.elementor-widget-container {
 
 		
 
@@ -74,6 +74,8 @@ Updated CSS for Elementor forms 1.7.4.*/
 			// padding: 7px 20px;
 			padding: 7px 0 7px 33px;
 			border-radius: 5px;
+			width: 100%;
+
 			&::placeholder {
 				// font-size: 18px;
 				color: $cnx_clr_0014;
@@ -87,53 +89,94 @@ Updated CSS for Elementor forms 1.7.4.*/
 
 	//-----------------------------------
 
-		input {
+		// input {
 		
-			&[type="checkbox"]{
-				// &[id$="contact_acceptance"] { 
-				// 	display:none; 
+		// 	&[type="checkbox"]{
+		// 		// &[id$="contact_acceptance"] { 
+		// 		// 	display:none; 
 
 
 					
-				// }
-				& + label{
-					color: #333333 !important;
-					font-family: "Merriweather", serif !important;
-					cursor: pointer;
-					font-size: 24px !important;
-					color: red;
+		// 		// }
+		// 		& + label{
+		// 			color: #333333 !important;
+		// 			font-family: "Merriweather", serif !important;
+		// 			cursor: pointer;
+		// 			font-size: 24px !important;
+		// 			color: red;
 
-					&:before { 
-						content:"\00a0"; 
-						width: 2em;
-						height: 2em;
-						// cursor: pointer;
-						background: #fff;
-						// background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-						border: 2px solid #939495;
+		// 			&:before { 
+		// 				content:"\00a0"; 
+		// 				width: 2em;
+		// 				height: 2em;
+		// 				// cursor: pointer;
+		// 				background: #fff;
+		// 				// background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+		// 				border: 2px solid #939495;
 
-						font-family: "Font Awesome 5 Free";
-						display: inline-block;
-						font-weight: 900;
-						color: blue;
-						padding: 0.3em 0.4em;
-						margin-right: 1em;
-					}
-				}
-				&:checked {
-					& + label {
-						&:before {
-							content:"\f00c";
-							border: 2px solid #499ad1;
-							background-color: #cde8fb;
-							color: #499ad1;
+		// 				font-family: "Font Awesome 5 Free";
+		// 				display: inline-block;
+		// 				font-weight: 900;
+		// 				color: blue;
+		// 				padding: 0.3em 0.4em;
+		// 				margin-right: 1em;
+		// 			}
+		// 		}
+		// 		&:checked {
+		// 			& + label {
+		// 				&:before {
+		// 					content:"\f00c";
+		// 					border: 2px solid #499ad1;
+		// 					background-color: #cde8fb;
+		// 					color: #499ad1;
 
-						}
-					}
-				}
-			}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
 			
+		// }
+
+		.form-check  {
+
+			//--------------
+			label {
+				color: #333333 !important;
+				font-family: "Merriweather", serif !important;
+				cursor: pointer;
+				font-size: 24px !important;
+				color: red;
+
+				&:before { 
+					content:"\00a0"; 
+					width: 2em;
+					height: 2em;
+					// cursor: pointer;
+					background: #fff;
+					// background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+					border: 2px solid #939495;
+
+					font-family: "Font Awesome 5 Free";
+					display: inline-block;
+					font-weight: 900;
+					color: blue;
+					padding: 0.3em 0.4em;
+					margin-right: 1em;
+				}
+
+				&.parsley-success {
+					&:before {
+						content:"\f00c";
+						border: 2px solid #499ad1;
+						background-color: #cde8fb;
+						color: #499ad1;
+
+					}
+				}
+			}			
 		}
+
+
 		select {
 		// 	  // margin: 50px;
 		// 	  // width: 150px;
@@ -295,7 +338,7 @@ Updated CSS for Elementor forms 1.7.4.*/
 
 
 	.form-privacy-assurance {
-		.form-group {
+		.elementor-widget-container {
 			font-size: 18px;
 			font-family: "Open Sans", sans-serif;
 			color: #666666;
@@ -350,6 +393,17 @@ body[data-elementor-device-mode="mobile"] {
 					// &:before {
 					// 	content: ""; // hide the checkmark
 					// }
+
+					label {
+						// border: 1px dashed red;
+						font-size: 18px !important;
+						display: block;
+						line-height: 1.5;
+
+						&:before { 
+							float: left;
+						}
+					}
 					input {
 						&[type="checkbox"] {
 							display: none; // hide the real checkbox because a customized one is used
@@ -377,7 +431,7 @@ body[data-elementor-device-mode="mobile"] {
 			}
 
 			//------------------
-			.form-group {
+			.elementor-widget-container {
 				input[type="text"],
 				input[type="tel"],
 				input[type="email"],
