@@ -19,37 +19,10 @@ function defaultTask(done) {
 
 var input = [
   // 'css/debug-desktop-first.scss', 
-  'css/ante/debug-mobile-first.scss', 
-  'css/ante/globals.scss',
-  'css/ante/about--section--about-us.scss',
-  'css/ante/about--section--our-culture.scss',
-  'css/ante/about--section--the-teams.scss',
-  'css/ante/community--hero-mobile.scss',
-  'css/ante/community--sec04.scss',
-  'css/ante/contact--form.scss',
-  // 'css/ante/contact--section-04.scss',
-  'css/ante/contact--section-04-b.scss',
-  // 'css/ante/demo--section-04-old.scss',
-  // 'css/ante/demo--section-04.scss',
-  'css/ante/demo--section-04-c.scss',
-
-  'css/ante/demo--hero-mobile.scss',
-  'css/ante/elementor-accordion.scss',
-  'css/ante/footer--sec01.scss',
-  'css/ante/header--sec01.scss',
-  'css/ante/header--section--header-nav-nav-menu.scss',
-  'css/ante/header--supra-header.scss',
-  'css/ante/home--sec22.scss',
-  'css/ante/home--section-intro.scss',
-  'css/ante/page.scss',
-  'css/ante/template.scss',
-  'css/ante/tour--section-15.scss',
-  'css/ante/tour--section-17.scss',
-  'css/ante/tour--section-intro--mobile.scss',
-  'css/ante/tour--section-20.scss',
-
-  'css/ante/styles1.scss', 
-  'css/ante/styles2.scss'  
+  'css/debug-mobile-first.scss', 
+  'css/globals.scss',
+  'css/styles1.scss', 
+  'css/styles2.scss'  
 ];
 var output = 'css/compiled/';
 
@@ -64,32 +37,13 @@ var sassOptions = {
     outputStyle: 'expanded'
 }; // 4
 
-// var autoprefixerOptions = {
-//   browsers: [
-//     'last 2 versions', 
-//     '> 5%', 
-//     'Firefox ESR',
-//     'safari 5'
-//   ]
-// };
-
 var autoprefixerOptions = {
   browsers: [
-    // 'last 2 versions', 
-    // '> 5%', 
-    // 'Firefox ESR'
-    '> 1%', 
     'last 2 versions', 
-    'firefox >= 4', 
-    'safari 7', 
-    'safari 8', 
-    'IE 8', 
-    'IE 9', 
-    'IE 10', 
-    'IE 11'
+    '> 5%', 
+    'Firefox ESR'
   ]
 };
-
 
 var sassdocOptions = {
   dest: 'sassdoc'
@@ -109,10 +63,10 @@ gulp.task('sass', function () {
     // .pipe(autoprefixer()) // 8
     .pipe(autoprefixer(autoprefixerOptions)) // 9
 
-    // .pipe(concat('all.css')) // <--- concatenates all the CSS files into a single CSS file
+    .pipe(concat('all.css'))
 
 
-    // .pipe(cleanCSS())
+    .pipe(cleanCSS())
     // .pipe(sourcemaps.write()) // 6
 
     .pipe(sourcemaps.write('.')) // 7
@@ -136,7 +90,6 @@ gulp.task('scripts', function(){
     .pipe(sourcemaps.init())
     // .pipe(useref())
     .pipe(strip()) // uglify strips comments too but also uglifies
-    .pipe(concat('all.js')) // concatenates all JS files into one
     // Minifies only if it's a JavaScript file
     // .pipe(gulpIf('*.js', uglify())) // works but deactivated
     .pipe(sourcemaps.write('.'))

@@ -1,0 +1,98 @@
+@import '_variables';
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    body {
+        // background-color: $mercury;
+    }
+
+    .barbara {
+        color: green;
+        font-size: 1em;
+        background-color: yellow;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: left;
+    }
+
+    #holly {
+        border: 3px green solid;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #owl_ex {
+        border: 1px solid blue;
+        max-width: 1500px;
+        // margin: 5em;
+
+        .owl-stage-outer {
+            // border: 1px solid red;
+            padding: 2em 0;
+            box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+        }
+        .owl-dots {
+            // border: 5px solid red;
+            margin: 1em 0 0 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .owl-dot {
+                // border: 1px solid red;
+                background: #ccc;
+                // opacity: 1;
+                width: 1em;
+                height: 1em;
+                margin: 5px 4px;
+                border-radius: 50%;
+                background: #116faf;
+
+                &.active {
+                    background: #e01e26;
+                }
+            }
+        }
+    }
+    
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 400px) {
+
+        
+    }
