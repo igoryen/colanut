@@ -1,0 +1,212 @@
+@import '_variables';
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    *, *:before, *:after { box-sizing: border-box; }
+
+    body {
+        // display: flex;
+        // justify-content: flex-end;
+        // font-family: 'Open Sans', sans-serif;
+    }
+    div {
+        padding: 0.1em;
+        margin: 0.1em;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .anthony {
+        color: green;
+        font-size: 1em;
+        background-color: yellow;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: left;
+    }
+
+    #calvin {
+        background-color: #ccc;
+    }
+    
+    .laurie { // main section 1 out of 2
+        background-color: #999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leon { // block
+        background-color: #f2f2f2;
+        max-width: 300px;
+        width: 100%;
+        // flex: 1 1 300px;
+        margin-bottom: 1em;
+    }
+
+    .katie { // head of the block
+        font-weight: 700;
+    }
+
+    .stacey {// body of the block
+        background-color: #fff;
+        > div {
+            &:nth-child(even) {
+                background: #f2f2f2;
+            };
+        }
+    }
+
+    .lloyd { // a single row in the body of the block
+        // background-color: #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .derek { // the name of the value in the row in the body of a block
+
+    }
+    .bill { // the value in the row of the body of the block
+
+    }
+
+    .vanessa { // main section 2 out of 3
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sue { // a single block
+        // flex: 1 1 auto;
+        width: 100%;
+        background-color: #e6e6e6;
+    }
+    .kristen { // the heading of a single block
+        background-color: #595959;
+        color: #fff;
+        text-transform: uppercase;
+        h3 {
+            padding: 0 1em;
+        }
+    }
+    .alma { // the body of a single block
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .warren { // infographics part of the body of the single block
+        // flex: 0 0 auto;
+        flex: 0 1 500px;
+        // max-width: 500px;
+        img {
+            width: 100%;
+            // max-width: 500px;
+            // flex: 0 0 auto;
+        }
+    }
+    .elsie { // the legend part of the body of the single block
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        // max-width: 300px;
+        flex: 0 1 300px;
+        justify-content: center;
+
+        
+    }
+    .beth { // a single row of the legend part of the body of the single block
+        // padding: 0 1em;
+        a {
+            margin: .2em 0;
+            // background-color: #d9d9d9;
+            &:hover {
+                background-color: #f2f2f2;
+            }
+        }
+
+    }
+
+    form {
+        background-color: #ccc;
+        display: flex;
+        flex-direction: column;
+        label {
+            background-color: #fff;
+            cursor: pointer;
+        }
+    }
+    //===============
+    .colorless {
+        background-color: #fff !important;
+    }
+
+    .vicki {
+        width: 100%;
+        border: 1px solid #333;
+        padding: 2em;
+        background-color: #f2f2f2;
+    }
+
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (min-width: 667px) {
+        
+        #calvin {
+            display: flex;
+            flex-direction: row;
+        }
+        .laurie {
+            flex: 0 1 percentage(0.3);
+            align-items: flex-end;
+            margin-right: 1em;
+        }
+        .vanessa {
+            margin-left: 1em;
+            flex: 0 1 percentage(0.7);
+        }
+        .leon {
+            // flex: 1 1 300px;
+        }
+        .warren {
+            margin-right: 2em;
+            // flex: 0 1 500px;
+        }
+        .sue {
+            max-width: 80%;
+        }
+        .vicki {
+            max-width: 80%;
+        }
+    }
